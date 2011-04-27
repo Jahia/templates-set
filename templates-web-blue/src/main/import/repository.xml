@@ -200,6 +200,14 @@
               </public-profile>
             </custom-rows-960gs-col1>
           </user>
+          <fullpage j:applyOn="jnt:content" j:defaultTemplate="false" j:hiddenTemplate="true" j:priority="100" jcr:primaryType="jnt:contentTemplate">
+            <pagecontent jcr:primaryType="jnt:contentList">
+              <row column="1col16" jcr:primaryType="jnt:row" />
+            </pagecontent>
+            <row-col1 jcr:primaryType="jnt:contentList">
+              <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay" />
+            </row-col1>
+          </fullpage>
         </base>
         <content-template j:applyOn="jnt:content" j:hiddenTemplate="true" j:priority="1" j:view="templates-web-blue" jcr:primaryType="jnt:contentTemplate">
           <pagecontent jcr:primaryType="jnt:contentList">
