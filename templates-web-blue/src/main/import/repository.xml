@@ -31,7 +31,7 @@
               <illustration j:allowedTypes="jnt:banner" j:areaView="easySlider-content" jcr:primaryType="jnt:area" />
             </illustration>
           </home>
-          <simple jcr:primaryType="jnt:pageTemplate">
+          <simple jcr:primaryType="jnt:pageTemplate" j:defaultTemplate="true">
             <pagecontent jcr:primaryType="jnt:contentList">
               <content customColumn="10, 6 noprint" jcr:primaryType="jnt:customRow" colNames="content-col1,content-col2"/>
             </pagecontent>
