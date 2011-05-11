@@ -141,11 +141,6 @@
                             <listB jcr:primaryType="jnt:area" j:allowedTypes="" />
                         </row-col2>
                     </summary>
-                    <contentTemplate jcr:primaryType="jnt:contentTemplate" j:applyOn="jnt:content" j:hiddenTemplate="false" j:defaultTemplate="true" j:priority="1">
-                      <pagecontent jcr:primaryType="jnt:contentList">
-                        <mainResourceDisplay jcr:primaryType="jnt:mainResourceDisplay" />
-                      </pagecontent>
-                    </contentTemplate>
 					  <user j:applyOn="jnt:user" j:defaultTemplate="true" j:hiddenTemplate="false" j:priority="10" jcr:primaryType="jnt:contentTemplate">
 						<pagecontent j:style="blue" jcr:mixinTypes="jmix:style" jcr:primaryType="jnt:contentList">
 						  <custom-rows-960gs customColumn="16" jcr:primaryType="jnt:customRow"/>
