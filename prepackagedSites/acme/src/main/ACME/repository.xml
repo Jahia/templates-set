@@ -597,8 +597,8 @@
       </tags>
       <j:acl j:inherit="true" jcr:primaryType="jnt:acl">
         <GRANT_g_site-administrators j:principal="g:site-administrators" j:protected="false" j:roles="site-administrator" j:aceType="GRANT" jcr:primaryType="jnt:ace" />
-        <GRANT_u_jenifer j:principal="u:jenifer" j:protected="false" j:roles="publisher visitor" j:aceType="GRANT" jcr:primaryType="jnt:ace" />
-        <GRANT_u_john j:principal="u:john" j:protected="false" j:roles="visitor translator-fr translator-en contributor author editor" j:aceType="GRANT" jcr:primaryType="jnt:ace" />
+        <GRANT_u_jenifer j:principal="u:jenifer" j:protected="false" j:roles="reviewer reader" j:aceType="GRANT" jcr:primaryType="jnt:ace" />
+        <GRANT_u_john j:principal="u:john" j:protected="false" j:roles="reader translator-fr translator-en contributor writer editor" j:aceType="GRANT" jcr:primaryType="jnt:ace" />
       </j:acl>
     </ACME>
   </sites>
