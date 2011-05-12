@@ -36,7 +36,7 @@
               <content customColumn="10, 6 noprint" jcr:primaryType="jnt:customRow" colNames="content-col1,content-col2"/>
             </pagecontent>
             <illustration jcr:primaryType="jnt:contentList">
-              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:levelAbsoluteArea" />
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
             <content-col2 jcr:primaryType="jnt:contentList">
               <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
@@ -125,7 +125,7 @@
               </facets>
             </row1-col2>
             <illustration jcr:primaryType="jnt:contentList">
-              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:levelAbsoluteArea" />
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
           </events>
           <news-template j:applyOn="jnt:news" j:defaultTemplate="true" j:priority="100" jcr:primaryType="jnt:contentTemplate">
@@ -141,7 +141,7 @@
               <content customColumn="10 , 6 noprint" jcr:primaryType="jnt:customRow" colNames="content-col1,content-col2"/>
             </pagecontent>
             <illustration jcr:primaryType="jnt:contentList">
-              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:levelAbsoluteArea" />
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
             <content-col2 jcr:primaryType="jnt:contentList">
               <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
@@ -158,7 +158,7 @@
               <row column="1col16" jcr:primaryType="jnt:row" />
             </pagecontent>
             <illustration jcr:primaryType="jnt:contentList">
-              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:levelAbsoluteArea" />
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
             <content-col2 jcr:primaryType="jnt:contentList" />
             <content-col1 jcr:primaryType="jnt:contentList" />

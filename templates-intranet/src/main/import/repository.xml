@@ -53,7 +53,7 @@
                 <contents jcr:primaryType="jnt:contentFolder"/>
                 <base jcr:mixinTypes="jmix:renderable" jcr:primaryType="jnt:template" j:view="intranet">
                     <logo jcr:primaryType="jnt:contentList">
-                        <logo j:basenode="/templateSets/templates-intranet/home" jcr:primaryType="jnt:absoluteArea" />
+                        <logo jcr:primaryType="jnt:absoluteArea" />
                     </logo>
                     <simpleSearch jcr:primaryType="jnt:contentList">
                         <simpleSearchForm result="/templateSets/templates-intranet/search-results" jcr:primaryType="jnt:simpleSearchForm" />
@@ -66,7 +66,7 @@
                         <footer-row column="1col16" jcr:primaryType="jnt:row" />
                     </footer>
                     <footer-row-col1 j:skin="skins.box3style1" jcr:mixinTypes="jmix:skinnable" jcr:primaryType="jnt:contentList">
-                        <footer j:basenode="/templateSets/templates-intranet/home" jcr:primaryType="jnt:absoluteArea" />
+                        <footer jcr:primaryType="jnt:absoluteArea" />
                     </footer-row-col1>
                     <home jcr:primaryType="jnt:pageTemplate">
                         <pagecontent jcr:primaryType="jnt:contentList">

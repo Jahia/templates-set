@@ -25,16 +25,16 @@
                         <shortcuts jcr:mixinTypes="jmix:renderable" jcr:primaryType="jnt:shortcuts" j:view="inline" />
                     </header>
                     <logo jcr:primaryType="jnt:contentList">
-                        <logo j:basenode="/templateSets/templates-web/home" jcr:primaryType="jnt:absoluteArea" />
+                        <logo jcr:primaryType="jnt:absoluteArea" />
                     </logo>
                     <topMenu jcr:primaryType="jnt:contentList">
                         <top-menu j:menuType="/templateSets/templates-web/templates/contents/menuAvailable/primary" j:maxDepth="1" jcr:primaryType="jnt:navMenu" j:baselineNode="home" j:styleName="navigationN1" />
                     </topMenu>
                     <logoFooter jcr:primaryType="jnt:contentList">
-                        <logoFooter j:basenode="/templateSets/templates-web/home" jcr:primaryType="jnt:absoluteArea" />
+                        <logoFooter jcr:primaryType="jnt:absoluteArea" />
                     </logoFooter>
                     <footer jcr:primaryType="jnt:contentList">
-                        <footer j:basenode="/templateSets/templates-web/home" jcr:primaryType="jnt:absoluteArea" />
+                        <footer jcr:primaryType="jnt:absoluteArea" />
                     </footer>
                     <home jcr:primaryType="jnt:pageTemplate">
                         <pagecontent jcr:primaryType="jnt:contentList">
