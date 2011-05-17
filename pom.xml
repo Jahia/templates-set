@@ -12,6 +12,12 @@
     <name>Jahia Default Templates</name>
     <packaging>pom</packaging>
 
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/templates-set.git</connection>
+        <url>scm:git:git@github.com:Jahia/templates-set.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/templates-set.git</developerConnection>
+    </scm>
+
     <repositories>
         <repository>
             <id>jahiaRepository</id>
