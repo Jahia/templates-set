@@ -208,17 +208,6 @@
               <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay" />
             </row-col1>
           </fullpage>
-            <pagetemplate j:hiddenTemplate="true" jcr:primaryType="jnt:pageTemplate">
-              <subpagetemplate j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
-                <pagecontent jcr:primaryType="jnt:contentList">
-                  <content colNames="content-col1,content-col2" customColumn="10, 6 noprint" jcr:primaryType="jnt:customRow" />
-                </pagecontent>
-                <content-col1 jcr:primaryType="jnt:contentList">
-                  <maincontent j:allowedTypes="" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:mainContent jnt:bigText" j:editableInContribution="true" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
-
-                </content-col1>
-              </subpagetemplate>
-            </pagetemplate>
         </base>
         <content-template j:applyOn="jnt:content" j:hiddenTemplate="true" j:priority="1" j:view="templates-web-blue" jcr:primaryType="jnt:contentTemplate">
           <pagecontent jcr:primaryType="jnt:contentList">
