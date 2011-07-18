@@ -63,7 +63,9 @@
             <navMenu j:baselineNode="home" j:maxDepth="1" j:menuItemView="menuElement" j:startLevel="0" j:styleName="navigationN1" jcr:primaryType="jnt:navMenu" />
           </headerBottom-colContent>
           <header-col1 jcr:primaryType="jnt:contentList">
-            <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea" />
+              <link-to-contribute-mode j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredMode="live" j:requiredPermissions="/permissions/contributeMode/contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoContribute"/>
+              <link-to-edit-mode j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredMode="live" j:requiredPermissions="/permissions/editMode/editModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoEdit"/>
+              <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea" />
           </header-col1>
           <footerTop-col1 jcr:primaryType="jnt:contentList">
             <topfooter1 j:allowedTypes="" jcr:primaryType="jnt:absoluteArea" />
