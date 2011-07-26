@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    
+    <bean class="org.jahia.services.render.StaticAssetMapping">
+        <property name="mapping">
+            <map>
+                <entry key="/modules/templates-intranet/css/01web.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/02mod.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigation.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN1-1.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN1-2.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN1-3.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN1-4.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN2-1.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+                <entry key="/modules/templates-intranet/css/navigationN2-2.css"
+                    value="/modules/templates-intranet/css/templates-intranet.min.css"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
