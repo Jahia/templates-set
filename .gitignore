@@ -1,2 +1,9 @@
 /.settings
 /.project
+
+/templates-intranet/.classpath
+/templates-intranet/.project
+/templates-web-blue/.classpath
+/templates-web-blue/.project
+/templates-intranet/.settings
+/templates-web-blue/.settings
