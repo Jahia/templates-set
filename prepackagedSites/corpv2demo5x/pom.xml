@@ -42,11 +42,11 @@
     <parent>
         <groupId>org.jahia.prepackagedsites</groupId>
         <artifactId>prepackagedSites</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>corpv2demo5x</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>CorpV2 Demo 5.x to 6.5</name>
     <packaging>pom</packaging>
 
