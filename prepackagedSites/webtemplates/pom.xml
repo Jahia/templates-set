@@ -42,11 +42,11 @@
     <parent>
         <groupId>org.jahia.prepackagedsites</groupId>
         <artifactId>prepackagedSites</artifactId>
-        <version>1.1</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>webtemplates</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
     <name>ACME demo 6.0 to 6.5</name>
     <packaging>pom</packaging>
 
