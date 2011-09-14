@@ -434,6 +434,12 @@ ChildNodeMapping ::= NodeWithOptionalNodeTypeName | '#skip' | '#shareableSource'
  - navLink = #navlink
 +------------------------------------------------------- 
 
+*** Conditional content visibility (aka "Time-based publishing")
+
+  Starting with Jahia 6.6 the time-based publishing rules of type "start and end date" from
+  Jahia 5.0.x and Jahia 6.0.x/6.1.x are automatically converted during the import process into Jahia 6.6
+  visibility conditions. No extra mapping is required for that migration. 
+
 *** Example
 
   All mappings provided in this package can be used for any export coming from a 6.0 site.
