@@ -26,12 +26,12 @@
             </includes>
             <outputDirectory></outputDirectory>
         </fileSet>
-        <fileSet>
-            <directory>${basedir}/target</directory>
-            <includes>
-                <include>systemsite.zip</include>
-            </includes>
-            <outputDirectory></outputDirectory>
-        </fileSet>
+        <!--<fileSet>-->
+            <!--<directory>${basedir}/target</directory>-->
+            <!--<includes>-->
+                <!--<include>systemsite.zip</include>-->
+            <!--</includes>-->
+            <!--<outputDirectory></outputDirectory>-->
+        <!--</fileSet>-->
     </fileSets>
 </assembly>
