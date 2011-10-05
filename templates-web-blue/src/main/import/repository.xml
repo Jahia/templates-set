@@ -130,14 +130,6 @@
               <illustration j:allowedTypes="jnt:imageReference" j:level="1" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
           </events>
-          <news-template j:applyOn="jnt:news" j:defaultTemplate="true" j:priority="100" jcr:primaryType="jnt:contentTemplate">
-            <pagecontent jcr:primaryType="jnt:contentList">
-              <row column="1col16" jcr:primaryType="jnt:row" />
-            </pagecontent>
-            <row-col1 jcr:primaryType="jnt:contentList">
-              <mainResourceDisplay j:mainResourceView="fullpage" jcr:primaryType="jnt:mainResourceDisplay" />
-            </row-col1>
-          </news-template>
           <news jcr:primaryType="jnt:pageTemplate">
             <pagecontent jcr:primaryType="jnt:contentList">
               <content customColumn="10 , 6 noprint" jcr:primaryType="jnt:customRow" colNames="content-col1,content-col2"/>
@@ -211,11 +203,6 @@
             </row-col1>
           </fullpage>
         </base>
-        <content-template j:applyOn="jnt:content" j:hiddenTemplate="true" j:priority="1" j:view="templates-web-blue" jcr:primaryType="jnt:contentTemplate">
-          <pagecontent jcr:primaryType="jnt:contentList">
-            <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay" />
-          </pagecontent>
-        </content-template>
         <contents jcr:primaryType="jnt:contentFolder" />
         <files jcr:primaryType="jnt:folder">
           <themes jcr:primaryType="jnt:folder">
