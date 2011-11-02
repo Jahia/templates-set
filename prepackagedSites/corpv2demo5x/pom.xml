@@ -46,7 +46,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>corpv2demo5x</artifactId>
-    <version>1.2-SNAPSHOT</version>
     <name>CorpV2 Demo 5.x to 6.5</name>
     <packaging>pom</packaging>
 
