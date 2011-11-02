@@ -47,7 +47,6 @@
     <groupId>org.jahia.prepackagedsites</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>prepackagedSites</artifactId>
-    <version>1.2-SNAPSHOT</version>
     <name>Prepackaged sites</name>
     <packaging>pom</packaging>
 
