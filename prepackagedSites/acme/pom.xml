@@ -92,23 +92,6 @@
                     </execution>
 
                     <execution>
-                        <id>systemsite</id>
-                        <configuration>
-                            <descriptors>
-                                <descriptor>src/main/assembly/systemsite.xml</descriptor>
-                            </descriptors>
-                            <attach>false</attach>
-                            <finalName>systemsite</finalName>
-                            <appendAssemblyId>false</appendAssemblyId>                            
-                        </configuration>
-
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                    </execution>
-
-                    <execution>
                         <id>root</id>
                         <configuration>
                             <descriptors>
