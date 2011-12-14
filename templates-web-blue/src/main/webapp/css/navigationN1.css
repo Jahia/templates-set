@@ -39,9 +39,13 @@
 }
 .bodywrapper .navigationN1 li.selected a,
 .bodywrapper .navigationN1 li.selected a:link,
-.bodywrapper .navigationN1 li.selected a:visited {
+.bodywrapper .navigationN1 li.selected a:visited,
+.bodywrapper .navigationN1 li.inPath a:hover,
+.bodywrapper .navigationN1 li.inPath a:active,
+.bodywrapper .navigationN1 li.inPath a,
+.bodywrapper .navigationN1 li.inPath a:link,
+.bodywrapper .navigationN1 li.inPath a:visited {
 	color:#003399;
 	border-bottom:3px solid #1443a0;
+    text-decoration:none;
 }
-
-
