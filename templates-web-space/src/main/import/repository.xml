@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0" xmlns:test="http://www.apache.org/jackrabbit/test" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:commix="http://www.jahia.com/jahia/mix/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0" xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal">
+  <templateSets jcr:primaryType="jnt:templateSets">
+    <templates-web-space changefreq="monthly" j:dependencies="default grid calendar event facets news search sitemap skins" j:installedModules="templates-web-space" j:originWS="default" j:siteType="templatesSet" j:title="templates-web-space" j:wcagCompliance="true" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:virtualsite" priority="0.5">
+      <portlets j:originWS="default" jcr:primaryType="jnt:portletFolder" />
+      <files j:originWS="default" jcr:primaryType="jnt:folder" />
+      <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
+      <templates j:originWS="default" jcr:primaryType="jnt:templatesFolder">
+        <base j:originWS="default" j:view="templates-web-space" jcr:mixinTypes="jmix:theme" jcr:primaryType="jnt:template">
+          <home j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <custom-rows-960gs colNames="teaserZone" customColumn="16" j:originWS="default" jcr:primaryType="jnt:customRow" />
+              <content colNames="content-col1,content-col2" customColumn="10,6 " j:originWS="default" jcr:primaryType="jnt:customRow" />
+            </pagecontent>
+            <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <aside j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </content-col2>
+            <content-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <maincontent j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </content-col1>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:banner" j:areaView="easySlider-content" j:originWS="default" jcr:primaryType="jnt:area" />
+            </illustration>
+            <teaserZone j:originWS="default" jcr:primaryType="jnt:contentList">
+              <area91323 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </teaserZone>
+          </home>
+          <simple j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <content colNames="content-col1,content-col2" customColumn="10, 6 noprint" j:originWS="default" jcr:primaryType="jnt:customRow" />
+            </pagecontent>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            </illustration>
+            <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <content-list j:originWS="default" j:skin="skins.acmebox2" j:style="grey" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
+                <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:originWS="default" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
+              </content-list>
+              <Right-column j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </content-col2>
+            <content-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <pagetitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
+              <pageBreadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
+              <maincontent j:allowedTypes="" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:mainContent jnt:bigText" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
+            </content-col1>
+          </simple>
+          <events j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <row1 column="2col115" j:originWS="default" jcr:primaryType="jnt:row" />
+            </pagecontent>
+            <row1-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <pageTitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
+              <breadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
+              <listA j:originWS="default" jcr:primaryType="jnt:area" />
+              <events j:allowedTypes="jnt:event" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:event" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
+            </row1-col1>
+            <row1-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <side-menu j:baselineNode="home" j:maxDepth="3" j:originWS="default" j:startLevel="1" j:styleName="navigationN2" jcr:primaryType="jnt:navMenu" />
+              <calendar endDateProperty="endDate" j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:calendar" startDateProperty="startDate" />
+              <facets j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:facets">
+                <fieldFacet facet="type" field="jnt:event;eventsType" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type" />
+                </fieldFacet>
+                <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
+                </fieldFacet-1>
+                <queryFacet facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
+                </queryFacet>
+                <queryFacet-1 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH]">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##" />
+                </queryFacet-1>
+                <queryFacet-2 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH]">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##" />
+                </queryFacet-2>
+                <queryFacet-3 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH]">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##" />
+                </queryFacet-3>
+              </facets>
+            </row1-col2>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            </illustration>
+          </events>
+          <news j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <content colNames="content-col1,content-col2" customColumn="10 , 6 noprint" j:originWS="default" jcr:primaryType="jnt:customRow" />
+            </pagecontent>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            </illustration>
+            <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <content-list j:originWS="default" j:skin="skins.acmebox2" j:style="white" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
+                <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:originWS="default" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
+              </content-list>
+              <Right-column j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </content-col2>
+            <content-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <pagetitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
+              <pageBreadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
+              <maincontent j:allowedTypes="jnt:news" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:news" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
+            </content-col1>
+          </news>
+          <full-page j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <row column="1col16" j:originWS="default" jcr:primaryType="jnt:row" />
+            </pagecontent>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            </illustration>
+            <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList" />
+            <content-col1 j:originWS="default" jcr:primaryType="jnt:contentList" />
+            <row-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <pagetitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
+              <pageBreadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
+              <maincontent j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </row-col1>
+          </full-page>
+          <publications j:originWS="default" jcr:primaryType="jnt:pageTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <row1 column="2col115" j:originWS="default" jcr:primaryType="jnt:row" />
+            </pagecontent>
+            <row1-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <pageTitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
+              <breadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
+              <listA j:originWS="default" jcr:primaryType="jnt:area" />
+              <publications j:allowedTypes="jnt:publication" j:originWS="default" jcr:primaryType="jnt:area" />
+            </row1-col1>
+            <row1-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <facets j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_publications_x002f_row1-col1_x002f_publications" j:originWS="default" jcr:primaryType="jnt:facets">
+                <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
+                </fieldFacet-1>
+              </facets>
+            </row1-col2>
+            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+              <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:levelAbsoluteArea" />
+            </illustration>
+          </publications>
+          <user j:applyOn="jnt:user" j:defaultTemplate="true" j:hiddenTemplate="false" j:originWS="default" j:priority="10" jcr:primaryType="jnt:contentTemplate">
+            <pagecontent j:originWS="default" j:style="blue" jcr:mixinTypes="jmix:style" jcr:primaryType="jnt:contentList">
+              <custom-rows-960gs customColumn="16" j:originWS="default" jcr:primaryType="jnt:customRow" />
+            </pagecontent>
+            <custom-rows-960gs-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <public-profile j:originWS="default" j:skin="skins.box8" j:style="blue" jcr:mixinTypes="jmix:skinnable jmix:style" jcr:primaryType="jnt:contentList">
+                <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="Public Profile" />
+                <userDetails j:originWS="default" j:view="full" jcr:mixinTypes="jmix:renderable" jcr:primaryType="jnt:userDetails" />
+              </public-profile>
+            </custom-rows-960gs-col1>
+          </user>
+          <fullpage j:applyOn="jnt:content" j:defaultTemplate="false" j:hiddenTemplate="true" j:originWS="default" j:priority="100" jcr:primaryType="jnt:contentTemplate">
+            <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+              <row column="1col16" j:originWS="default" jcr:primaryType="jnt:row" />
+            </pagecontent>
+            <row-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <mainResourceDisplay j:mainResourceView="fullpage" j:originWS="default" jcr:primaryType="jnt:mainResourceDisplay" />
+            </row-col1>
+          </fullpage>
+          <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
+            <content-list-1 j:id="page-header" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
+              <content-list j:id="page-header-img" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
+                <header colNames="header-col1,header-col2" customColumn="5,11" divID="header" j:originWS="default" jcr:primaryType="jnt:customRow" />
+                <headerBottom colNames="leftheaderBottom-left,leftheaderBottom-center,leftheaderBottom-right" customColumn="3,11,2" divID="headerBottom" j:originWS="default" jcr:primaryType="jnt:customRow" />
+                <illustration colNames="illustration-colContent" customColumn="16" divID="illustration" j:originWS="default" jcr:primaryType="jnt:customRow" />
+              </content-list>
+            </content-list-1>
+            <content-1 j:id="content" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
+              <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="content" />
+              <pagecontent j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </content-1>
+            <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4,,footerTop-col5" customColumn="4,4,4,4,16" divClass=" noprint" divID="footerTop" j:originWS="default" jcr:primaryType="jnt:customRow" />
+          </pagecontent>
+          <headerBottom-colContent j:originWS="default" jcr:primaryType="jnt:contentList" />
+          <header-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <content-list j:id="jahia-tools" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
+              <link-to-contribute-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_contributeMode_x002f_contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoContribute" />
+              <link-to-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_editMode_x002f_editModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoEdit" />
+            </content-list>
+          </header-col1>
+          <footerTop-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <topfooter1 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footerTop-col1>
+          <footerTop-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <topfooter2 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footerTop-col2>
+          <footerTop-col3 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <topfooter3 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footerTop-col3>
+          <footer-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <footer-left j:allowedTypes="" j:deletionDate="2012-01-24T16:01:38.569+01:00" j:deletionUser="root" j:originWS="default" jcr:mixinTypes="jmix:markedForDeletion jmix:markedForDeletionRoot" jcr:primaryType="jnt:absoluteArea" />
+          </footer-col1>
+          <content-colContent j:originWS="default" jcr:primaryType="jnt:contentList" />
+          <header-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <Header-right j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </header-col2>
+          <footerTop-col4 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <topfooter4 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footerTop-col4>
+          <footer-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <footer-right j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footer-col2>
+          <illustration-colContent j:originWS="default" jcr:primaryType="jnt:contentList">
+            <illustration j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+          </illustration-colContent>
+          <leftheaderBottom-left j:originWS="default" jcr:primaryType="jnt:contentList">
+            <content-list j:id="logo-top" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
+              <headerBottom-left j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            </content-list>
+            <rich-text j:originWS="default" jcr:primaryType="jnt:bigText">
+              <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="&lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+              <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;p&gt;&amp;nbsp;&lt;/p&gt;" />
+            </rich-text>
+          </leftheaderBottom-left>
+          <leftheaderBottom-riht j:originWS="default" jcr:primaryType="jnt:contentList" />
+          <leftheaderBottom-center j:originWS="default" jcr:primaryType="jnt:contentList">
+            <navMenu j:baselineNode="home" j:maxDepth="2" j:menuItemView="menuElement" j:originWS="default" j:startLevel="0" j:styleName="navigation" jcr:primaryType="jnt:navMenu" />
+          </leftheaderBottom-center>
+          <leftheaderBottom-right j:originWS="default" jcr:primaryType="jnt:contentList">
+            <headerBottom-right j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </leftheaderBottom-right>
+          <footerTop-col5 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <topfooter5 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+          </footerTop-col5>
+        </base>
+        <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
+        <files j:originWS="default" jcr:primaryType="jnt:folder">
+          <themes j:originWS="default" jcr:primaryType="jnt:folder">
+            <default j:originWS="default" jcr:primaryType="jnt:folder" />
+            <theme-orange j:originWS="default" jcr:primaryType="jnt:folder">
+              <theme-orange j:originWS="default" jcr:primaryType="jnt:folder">
+                <img j:originWS="default" jcr:primaryType="jnt:folder">
+                  <header-bg.png j:height="120" j:originWS="default" j:width="14" jcr:mixinTypes="jmix:image" jcr:primaryType="jnt:file">
+                    <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource" />
+                    <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource" />
+                    <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource" />
+                  </header-bg.png>
+                </img>
+              </theme-orange>
+              <theme-orange.css j:originWS="default" jcr:primaryType="jnt:file">
+                <jcr:content jcr:mimeType="text/css" jcr:primaryType="jnt:resource" />
+              </theme-orange.css>
+            </theme-orange>
+          </themes>
+          <template.jpg j:height="141" j:originWS="default" j:width="270" jcr:mixinTypes="jmix:image" jcr:primaryType="jnt:file">
+            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+          </template.jpg>
+        </files>
+      </templates>
+      <j:versionInfo j:deployementDate="2012-01-23T16:23:39.777+01:00" j:version="1.2-SNAPSHOT" jcr:primaryType="jnt:versionInfo" />
+      <home changefreq="monthly" j:isHomePage="true" j:originWS="default" j:templateNode="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_home" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:page" priority="0.5">
+        <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="Home" />
+        <header-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <header-left j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+        </header-col1>
+        <header-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <header-right j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+        </header-col2>
+        <header-left j:originWS="default" jcr:primaryType="jnt:contentList" />
+      </home>
+      <search-results changefreq="monthly" j:originWS="default" j:templateNode="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_full-page" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:page" priority="0.5">
+        <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="Search results" />
+        <maincontent j:originWS="default" jcr:primaryType="jnt:contentList">
+          <advanced-search j:originWS="default" jcr:primaryType="jnt:advancedSearchForm">
+            <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="Advanced search" />
+          </advanced-search>
+          <pager displayNbOfItemsPerPage="true" displayPager="true" j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_search-results_x002f_maincontent_x002f_search-results" j:originWS="default" jcr:primaryType="jnt:pager" nbOfPages="10" pageSize="10" />
+          <search-results autoSuggest="true" autoSuggestHitCount="2" autoSuggestMinimumHitCount="2" j:originWS="default" jcr:primaryType="jnt:searchResults">
+            <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="Search results" />
+          </search-results>
+        </maincontent>
+      </search-results>
+      <components j:originWS="default" jcr:primaryType="jnt:componentFolder" />
+    </templates-web-space>
+  </templateSets>
+</content>
+

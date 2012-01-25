@@ -1,0 +1,163 @@
+/******************************************************************************
+*  acmebox1
+******************************************************************************/
+.bodywrapper div.acmebox1 {
+	position:relative;
+	clear:both;
+	margin-bottom:1em;
+	margin-left:0;
+	font-weight:normal;
+	clear:both;
+	background:transparent url(img/acmebox1-bg.png) repeat-y top right ;
+	padding-right: 30px;
+}
+/******************************************************************************
+*  acmebox2
+******************************************************************************/
+.bodywrapper .acmebox2-shadow {
+	margin-bottom:0.5em;
+}
+.bodywrapper .acmebox2-shadow-left, .bodywrapper .acmebox2-shadow-right {
+    background-image: url("img/acmebox2-shadow.png");
+    font-size: 2px;
+    height: 5px;
+}
+.bodywrapper .acmebox2-shadow-left {
+    background-position: 0 0;
+    margin-right: 120px;
+}
+.bodywrapper .acmebox2-shadow-right {
+    background-position: 100% 0;
+    margin-left: 120px;
+	margin-top: -5px;
+}
+
+.bodywrapper div.acmebox2 {
+	background-color:#fff;
+	border:1px solid #eaeaea;
+	margin:0;
+	padding:15px;
+	position:relative;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+}
+/*white*/
+.bodywrapper div.acmebox2-white {
+	background-color:#fff;
+	border:1px solid #eaeaea;
+}
+/*black*/
+.bodywrapper div.acmebox2-black {
+	background-color:#333333;
+	border:1px solid #010101;
+}
+.bodywrapper div.acmebox2-black * {
+	color:#fff;
+}
+/*grey*/
+.bodywrapper div.acmebox2-grey {
+	background-color:#f8f8f8;
+	border:1px solid #eaeaea;
+}
+/*mushroom*/
+.bodywrapper div.acmebox2-mushroom {
+	background-color:#f4eee9;
+	border:1px solid #eee7e1;
+}
+/*orange*/
+.bodywrapper div.acmebox2-orange {
+	border:1px solid #fde8c9;
+	background-color:#fef0dc;
+}
+/*red*/
+.bodywrapper div.acmebox2-red {
+	border:1px solid #f3d8d8;
+	background-color:#f7e6e6;
+}
+/*green*/
+.bodywrapper div.acmebox2-green {
+	border:1px solid #e0ead3;
+	background-color:#f4fbea;
+}
+/*purple*/
+.bodywrapper div.acmebox2-purple {
+	border:1px solid #e4cae9;
+	background-color:#f9ddff;
+}
+/*yellow*/
+.bodywrapper div.acmebox2-yellow {
+	border:1px solid #f1de9e;
+	background-color:#fdf2ce;
+}
+/*blue*/
+.bodywrapper div.acmebox2-blue {
+	border:1px solid #c5dbec;
+	background-color:#dfeffc;
+}
+/******************************************************************************
+*  acmebox3
+******************************************************************************/
+
+.bodywrapper div.acmebox3 {
+	background-color:#fff;
+	border:1px solid #eaeaea;
+	margin:0;
+	padding:15px;
+	position:relative;
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+	margin-bottom:1em;
+}
+/*white*/
+.bodywrapper div.acmebox3-white {
+	background-color:#fff;
+	border:1px solid #eaeaea;
+}
+/*black*/
+.bodywrapper div.acmebox3-black {
+	background-color:#333333;
+	border:1px solid #010101;
+}
+.bodywrapper div.acmebox3-black * {
+	color:#fff;
+}
+/*grey*/
+.bodywrapper div.acmebox3-grey {
+	background-color:#f8f8f8;
+	border:1px solid #eaeaea;
+}
+/*mushroom*/
+.bodywrapper div.acmebox3-mushroom {
+	background-color:#f4eee9;
+	border:1px solid #eee7e1;
+}
+/*orange*/
+.bodywrapper div.acmebox3-orange {
+	border:1px solid #fde8c9;
+	background-color:#fef0dc;
+}
+/*red*/
+.bodywrapper div.acmebox3-red {
+	border:1px solid #f3d8d8;
+	background-color:#f7e6e6;
+}
+/*green*/
+.bodywrapper div.acmebox3-green {
+	border:1px solid #e0ead3;
+	background-color:#f4fbea;
+}
+/*purple*/
+.bodywrapper div.acmebox3-purple {
+	border:1px solid #e4cae9;
+	background-color:#f9ddff;
+}
+/*yellow*/
+.bodywrapper div.acmebox3-yellow {
+	border:1px solid #f1de9e;
+	background-color:#fdf2ce;
+}
+/*blue*/
+.bodywrapper div.acmebox3-blue {
+	border:1px solid #c5dbec;
+	background-color:#dfeffc;
+}

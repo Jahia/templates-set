@@ -1,0 +1,21 @@
+
+/******************************************************************************
+* Acme teaser
+******************************************************************************/
+
+.bodywrapper div.boxacmeteaser > a {
+    border: 1px solid transparent;
+    color: #858586;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+	border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 0 1px transparent inset;
+}
+.bodywrapper div.boxacmeteaser > a:hover {
+    background-color: #F4F5F7 !important;
+    border-color: #D9D9DA;
+    color: #858586;
+	box-shadow: 0 0 0 1px #FFFFFF inset;
+}

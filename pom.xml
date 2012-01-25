@@ -148,6 +148,7 @@
     <modules>
 		<module>templates-web</module>
 		<module>templates-web-blue</module>
+		<module>templates-web-space</module>
 		<module>templates-intranet</module>
 		<module>prepackagedSites</module>
   </modules>
