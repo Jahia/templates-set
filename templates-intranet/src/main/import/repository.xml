@@ -49,6 +49,11 @@
                             </theme-yellow.css>
                         </theme-yellow>
                     </themes>
+                    <template.jpg j:height="141" j:originWS="default" j:width="270" jcr:mixinTypes="jmix:image" jcr:primaryType="jnt:file" j:publicationStatus="4">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+                    </template.jpg>
                 </files>
                 <contents jcr:primaryType="jnt:contentFolder"/>
                 <base jcr:mixinTypes="jmix:renderable" jcr:primaryType="jnt:template" j:view="intranet">

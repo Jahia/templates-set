@@ -223,6 +223,11 @@
               </theme-orange.css>
             </theme-orange>
           </themes>
+            <template.jpg j:height="141" j:originWS="default" j:width="270" jcr:mixinTypes="jmix:image" jcr:primaryType="jnt:file" j:publicationStatus="4">
+                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource" />
+            </template.jpg>
         </files>
       </templates>
       <search-results changefreq="monthly" j:templateNode="/templateSets/templates-web-blue/templates/base/full-page" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:page" priority="0.5">
