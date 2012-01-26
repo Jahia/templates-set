@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<content xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0" xmlns:test="http://www.apache.org/jackrabbit/test" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:commix="http://www.jahia.com/jahia/mix/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0" xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal">
+<content xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:commix="http://www.jahia.com/jahia/mix/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0" xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal">
   <templateSets jcr:primaryType="jnt:templateSets">
-    <templates-web-space changefreq="monthly" j:dependencies="default grid calendar event facets news search sitemap skins" j:installedModules="templates-web-space" j:originWS="default" j:siteType="templatesSet" j:title="templates-web-space" j:wcagCompliance="true" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:virtualsite" priority="0.5">
+    <templates-web-space changefreq="monthly" j:dependencies="default grid calendar event facets news search sitemap skins blog rating" j:installedModules="Jahia Web Templates Space" j:originWS="default" j:siteType="templatesSet" j:title="Jahia Web Templates Space" j:wcagCompliance="true" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:virtualsite" priority="0.5">
       <portlets j:originWS="default" jcr:primaryType="jnt:portletFolder" />
       <files j:originWS="default" jcr:primaryType="jnt:folder" />
       <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
@@ -11,6 +11,7 @@
             <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
               <custom-rows-960gs colNames="teaserZone" customColumn="16" j:originWS="default" jcr:primaryType="jnt:customRow" />
               <content colNames="content-col1,content-col2" customColumn="10,6 " j:originWS="default" jcr:primaryType="jnt:customRow" />
+              <justBeforeFooter customColumn="16" j:originWS="default" jcr:primaryType="jnt:customRow" />
             </pagecontent>
             <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
               <aside j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
@@ -24,6 +25,9 @@
             <teaserZone j:originWS="default" jcr:primaryType="jnt:contentList">
               <area91323 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
             </teaserZone>
+            <justBeforeFooter-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+              <just-before-footer-area j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
+            </justBeforeFooter-col1>
           </home>
           <simple j:originWS="default" jcr:primaryType="jnt:pageTemplate">
             <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
@@ -46,7 +50,7 @@
           </simple>
           <events j:originWS="default" jcr:primaryType="jnt:pageTemplate">
             <pagecontent j:originWS="default" jcr:primaryType="jnt:contentList">
-              <row1 column="2col115" j:originWS="default" jcr:primaryType="jnt:row" />
+              <row1 column="2col106" j:originWS="default" jcr:primaryType="jnt:row" />
             </pagecontent>
             <row1-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
               <pageTitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
@@ -54,7 +58,7 @@
               <listA j:originWS="default" jcr:primaryType="jnt:area" />
               <events j:allowedTypes="jnt:event" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:event" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
             </row1-col1>
-            <row1-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <row1-col2 j:originWS="default" j:skin="skins.acmebox2" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
               <side-menu j:baselineNode="home" j:maxDepth="3" j:originWS="default" j:startLevel="1" j:styleName="navigationN2" jcr:primaryType="jnt:navMenu" />
               <calendar endDateProperty="endDate" j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:calendar" startDateProperty="startDate" />
               <facets j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:facets">
@@ -77,6 +81,7 @@
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##" />
                 </queryFacet-3>
               </facets>
+              <event-right-column-content j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
             </row1-col2>
             <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
               <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
@@ -168,7 +173,7 @@
               <j:translation_en jcr:language="en" jcr:mixinTypes="mix:title" jcr:primaryType="jnt:translation" jcr:title="content" />
               <pagecontent j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
             </content-1>
-            <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4,,footerTop-col5" customColumn="4,4,4,4,16" divClass=" noprint" divID="footerTop" j:originWS="default" jcr:primaryType="jnt:customRow" />
+            <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4,,footerTop-col5" customColumn="3,6,4,3,16" divClass=" noprint" divID="footerTop" j:originWS="default" jcr:primaryType="jnt:customRow" />
           </pagecontent>
           <headerBottom-colContent j:originWS="default" jcr:primaryType="jnt:contentList" />
           <header-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
@@ -178,11 +183,13 @@
             </content-list>
           </header-col1>
           <footerTop-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
-            <topfooter1 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
+            <topfooter1 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea">
+              <rich-text j:originWS="default" jcr:primaryType="jnt:bigText">
+                <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Commentaires&lt;/h3&gt;&#xA;" />
+                <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;" />
+              </rich-text>
+            </topfooter1>
           </footerTop-col1>
-          <footerTop-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
-            <topfooter2 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
-          </footerTop-col2>
           <footerTop-col3 j:originWS="default" jcr:primaryType="jnt:contentList">
             <topfooter3 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
           </footerTop-col3>
@@ -221,6 +228,13 @@
           <footerTop-col5 j:originWS="default" jcr:primaryType="jnt:contentList">
             <topfooter5 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
           </footerTop-col5>
+          <footerTop-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+            <rich-text j:originWS="default" jcr:primaryType="jnt:bigText">
+              <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Derniers commentaires&lt;/h3&gt;&#xA;" />
+              <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;" />
+            </rich-text>
+            <last-blog-comments-list j:className="simple" j:originWS="default" j:subNodesView="blogList" j:view="unordered" jcr:mixinTypes="jmix:renderable jmix:listOrdered" jcr:primaryType="jnt:latestBlogComment" />
+          </footerTop-col2>
         </base>
         <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
         <files j:originWS="default" jcr:primaryType="jnt:folder">
