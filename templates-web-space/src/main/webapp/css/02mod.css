@@ -110,7 +110,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 /*shortcuts*/
 .bodywrapper div.shortcuts-inline {
 	font-size:100%;
-	padding:0px;
+	padding:0;
 }
 .bodywrapper .shortcuts-inline li.shortcuts-login {
 	background:none;
@@ -179,3 +179,28 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 .bodywrapper #primaryNav li li ul {
     background-color: transparent;
 	}
+/******************************************************************************
+*  Event
+******************************************************************************/
+.bodywrapper div.eventsDate {
+    background-image: none;
+    background-color:#9D50CA;
+    color: #fff;
+	border-radius: 5px;
+    font-family:  "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    padding-top: 0;
+}
+.bodywrapper div.eventsTxtDate {
+     background-image: url("img/eventstxtdate.png");
+}
+.bodywrapper .eventsListItem .day {
+    color: #fff;
+}
+.bodywrapper .eventsListItem .month {
+    color: #fff;
+}
+.bodywrapper .eventsListItem .year {
+    background-image: none;
+    color: #fff;
+    padding-top: 2px;
+}
