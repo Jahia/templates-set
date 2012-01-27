@@ -64,21 +64,27 @@
               <facets j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:facets">
                 <fieldFacet facet="type" field="jnt:event;eventsType" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Type" />
                 </fieldFacet>
                 <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Catégories" />
                 </fieldFacet-1>
                 <queryFacet facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" />
                 </queryFacet>
                 <queryFacet-1 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH]">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" />
                 </queryFacet-1>
                 <queryFacet-2 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH]">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" />
                 </queryFacet-2>
                 <queryFacet-3 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH]">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##" />
+                  <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" />
                 </queryFacet-3>
               </facets>
               <event-right-column-content j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
@@ -233,7 +239,8 @@
               <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Derniers commentaires&lt;/h3&gt;&#xA;" />
               <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;" />
             </rich-text>
-              <jcr-query j:originWS="default" j:subNodesView="commentLink" jcr:language="JCR-SQL2" jcr:primaryType="jnt:query" jcr:statement="select * from [jnt:post] as comments order by comments.[jcr:lastModified] desc" maxItems="4" />          </footerTop-col2>
+              <jcr-query j:className="simple" j:originWS="default" j:subNodesView="commentLink" j:view="unordered" jcr:language="JCR-SQL2" jcr:mixinTypes="jmix:renderable jmix:listOrdered" jcr:primaryType="jnt:query" jcr:statement="select * from [jnt:post] as comments order by comments.[jcr:lastModified] desc" maxItems="4"/>
+            </footerTop-col2>
         </base>
         <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
         <files j:originWS="default" jcr:primaryType="jnt:folder">
