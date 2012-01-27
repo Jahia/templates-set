@@ -204,3 +204,15 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
     color: #fff;
     padding-top: 2px;
 }
+/******************************************************************************
+*   Comment Link
+******************************************************************************/
+
+.bodywrapper a.atopcomments {
+    background: url(img/atopcomments.png ) no-repeat scroll 0.2em 0em;
+	padding-left:24px;
+    line-height: 200%;
+}
+.bodywrapper span.listinfo  {
+    font-size:0.8em;
+}
