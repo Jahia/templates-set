@@ -109,21 +109,26 @@
                 <fieldFacet facet="type" field="jnt:event;eventsType" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type" />
                 </fieldFacet>
-                <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
-                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
-                </fieldFacet-1>
-                <queryFacet facet="nextEvents" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
-                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
-                </queryFacet>
-                <queryFacet-1 facet="nextEvents" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH]">
-                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##" />
-                </queryFacet-1>
-                <queryFacet-2 facet="nextEvents" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH]">
-                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##" />
-                </queryFacet-2>
-                <queryFacet-3 facet="nextEvents" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH]">
-                  <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##" />
-                </queryFacet-3>
+                  <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                    <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
+                    <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Catégories" />
+                  </fieldFacet-1>
+                  <queryFacet facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
+                    <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
+                    <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
+                  </queryFacet>
+                  <queryFacet-1 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+1MONTH TO NOW/MONTH+2MONTH]">
+                    <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##" />
+                    <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" valueLabel="##DynamicDateLabel(NOW/MONTH+1MONTH,date,MMMM)##" />
+                  </queryFacet-1>
+                  <queryFacet-2 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+2MONTH TO NOW/MONTH+3MONTH]">
+                    <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##" />
+                    <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" valueLabel="##DynamicDateLabel(NOW/MONTH+2MONTH,date,MMMM)##"/>
+                  </queryFacet-2>
+                  <queryFacet-3 facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH] OR 0\:FACET\:endDate:[NOW/MONTH+3MONTH TO NOW/MONTH+4MONTH]">
+                    <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##" />
+                    <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" valueLabel="##DynamicDateLabel(NOW/MONTH+3MONTH,date,MMMM)##"/>
+                  </queryFacet-3>
               </facets>
             </row1-col2>
             <illustration jcr:primaryType="jnt:contentList">
