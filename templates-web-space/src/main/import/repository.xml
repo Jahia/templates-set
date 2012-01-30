@@ -46,6 +46,7 @@
               <pagetitle j:originWS="default" jcr:primaryType="jnt:pageTitle" />
               <pageBreadcrumb displayCurrentPage="true" displayHome="true" displayLinkOnCurrentPage="false" j:originWS="default" jcr:primaryType="jnt:pageBreadcrumb" />
               <maincontent j:allowedTypes="" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:mainContent jnt:bigText" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
+              <maincontent2 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
             </content-col1>
           </simple>
           <events j:originWS="default" jcr:primaryType="jnt:pageTemplate">
