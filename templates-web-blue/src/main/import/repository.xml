@@ -109,10 +109,10 @@
                 <fieldFacet facet="type" field="jnt:event;eventsType" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type" />
                 </fieldFacet>
-                  <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                  <field-hierarchical-facet facet="Categories" field="jmix:categorized;j:defaultCategory" j:originWS="default" jcr:primaryType="jnt:fieldHierarchicalFacet" limit="100" mincount="1" missing="false" offset="0" prefix="/sites/systemsite/categories">
                     <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
                     <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Catégories" />
-                  </fieldFacet-1>
+                  </field-hierarchical-facet>
                   <queryFacet facet="nextEvents" j:originWS="default" jcr:primaryType="jnt:queryFacet" mincount="1" query="0\:FACET\:startDate:[NOW/DAY TO NOW/MONTH+1MONTH] OR 0\:FACET\:endDate:[NOW/DAY TO NOW/MONTH+1MONTH]">
                     <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Next events per month" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
                     <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" label="Prochains évènements par mois" valueLabel="##DynamicDateLabel(NOW/MONTH,date,MMMM)##" />
@@ -179,9 +179,9 @@
             </row1-col1>
             <row1-col2 jcr:primaryType="jnt:contentList">
               <facets j:bindedComponent="/templateSets/templates-web-blue/templates/base/publications/row1-col1/publications" jcr:primaryType="jnt:facets">
-                <fieldFacet-1 facet="Categories" field="jmix:categorized;j:defaultCategory" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
+                <field-hierarchical-facet facet="Categories" field="jmix:categorized;j:defaultCategory" jcr:primaryType="jnt:fieldHierarchicalFacet" limit="100" mincount="1" missing="false" offset="0" prefix="/sites/systemsite/categories">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
-                </fieldFacet-1>
+                </field-hierarchical-facet>
               </facets>
             </row1-col2>
             <illustration jcr:primaryType="jnt:contentList">
