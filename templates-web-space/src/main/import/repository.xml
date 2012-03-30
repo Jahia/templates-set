@@ -187,6 +187,7 @@
           <header-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
             <content-list j:id="jahia-tools" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
               <link-to-contribute-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_contributeMode_x002f_contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoContribute" />
+              <link-to-light-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_contributeMode_x002f_contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoLightEdit" />
               <link-to-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_editMode_x002f_editModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoEdit" />
             </content-list>
           </header-col1>

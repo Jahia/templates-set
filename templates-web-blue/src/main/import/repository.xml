@@ -64,6 +64,7 @@
           </headerBottom-colContent>
           <header-col1 jcr:primaryType="jnt:contentList">
               <link-to-contribute-mode j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="/permissions/contributeMode/contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoContribute"/>
+              <link-to-light-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="/permissions/contributeMode/contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoLightEdit" />
               <link-to-edit-mode j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="/permissions/editMode/editModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoEdit"/>
               <header-left j:allowedTypes="" jcr:primaryType="jnt:absoluteArea" />
           </header-col1>
