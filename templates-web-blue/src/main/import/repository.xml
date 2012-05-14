@@ -106,7 +106,7 @@
             <row1-col2 jcr:primaryType="jnt:contentList">
               <side-menu j:baselineNode="home" j:maxDepth="3" j:startLevel="1" j:styleName="navigationN2" jcr:primaryType="jnt:navMenu" />
               <calendar endDateProperty="endDate" j:bindedComponent="/templateSets/templates-web-blue/templates/base/events/row1-col1/events" jcr:primaryType="jnt:calendar" startDateProperty="startDate" />
-              <facets j:bindedComponent="/templateSets/templates-web-blue/templates/base/events/row1-col1/events" jcr:primaryType="jnt:facets">
+              <facets j:bindedComponent="/templateSets/templates-web-blue/templates/base/events/row1-col1/events" jcr:primaryType="jnt:facets" j:type="jnt:event">
                 <fieldFacet facet="type" field="jnt:event;eventsType" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Type" />
                 </fieldFacet>
@@ -179,7 +179,7 @@
               <publications j:allowedTypes="jnt:publication" jcr:primaryType="jnt:area" />
             </row1-col1>
             <row1-col2 jcr:primaryType="jnt:contentList">
-              <facets j:bindedComponent="/templateSets/templates-web-blue/templates/base/publications/row1-col1/publications" jcr:primaryType="jnt:facets">
+              <facets j:bindedComponent="/templateSets/templates-web-blue/templates/base/publications/row1-col1/publications" jcr:primaryType="jnt:facets" j:type="jnt:publication">
                 <field-hierarchical-facet facet="Categories" field="jmix:categorized;j:defaultCategory" jcr:primaryType="jnt:fieldHierarchicalFacet" limit="100" mincount="1" missing="false" offset="0" prefix="/sites/systemsite/categories">
                   <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" label="Categories" />
                 </field-hierarchical-facet>

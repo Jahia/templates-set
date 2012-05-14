@@ -123,7 +123,7 @@
                         </row1-col1>
                         <row1-col2 j:skin="skins.box5" jcr:mixinTypes="jmix:skinnable" jcr:primaryType="jnt:contentList">
                             <calendar startDateProperty="startDate" endDateProperty="endDate" jcr:primaryType="jnt:calendar" j:bindedComponent="/templateSets/templates-intranet/templates/base/events/row1-col1/events" />
-                            <facets jcr:primaryType="jnt:facets" j:bindedComponent="/templateSets/templates-intranet/templates/base/events/row1-col1/events">
+                            <facets jcr:primaryType="jnt:facets" j:bindedComponent="/templateSets/templates-intranet/templates/base/events/row1-col1/events" j:type="jnt:event">
                                 <fieldFacet mincount="1" field="jnt:event;eventsType" jcr:primaryType="jnt:fieldFacet" missing="false" facet="type" offset="0" limit="100">
                                     <j:translation_en label="Type" jcr:language="en" jcr:primaryType="jnt:translation" />
                                     <j:translation_de label="Typ" jcr:language="de" jcr:primaryType="jnt:translation" />
