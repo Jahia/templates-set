@@ -19,7 +19,7 @@
             <content-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
               <maincontent j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
             </content-col1>
-            <illustration j:originWS="default" jcr:primaryType="jnt:contentList">
+            <illustration j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:contentList">
               <illustration j:allowedTypes="jnt:banner" j:areaView="easySlider-content" j:originWS="default" jcr:primaryType="jnt:area" />
             </illustration>
             <teaserZone j:originWS="default" jcr:primaryType="jnt:contentList">
@@ -184,14 +184,14 @@
             <footerTop colNames="footerTop-col1,footerTop-col2,footerTop-col3,footerTop-col4,,footerTop-col5" customColumn="3,6,4,3,16" divClass=" noprint" divID="footerTop" j:originWS="default" jcr:primaryType="jnt:customRow" />
           </pagecontent>
           <headerBottom-colContent j:originWS="default" jcr:primaryType="jnt:contentList" />
-          <header-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <header-col1 j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:contentList">
             <content-list j:id="jahia-tools" j:originWS="default" j:skin="skins.custom" jcr:mixinTypes="jmix:skinnable jmix:customSkin" jcr:primaryType="jnt:contentList">
               <link-to-contribute-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_contributeMode_x002f_contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoContribute" />
               <link-to-light-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_contributeMode_x002f_contributeModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoLightEdit" />
               <link-to-edit-mode j:originWS="default" j:requireLoggedUser="false" j:requirePrivilegedUser="false" j:requiredPermissions="_x0023__x002f_permissions_x002f_editMode_x002f_editModeAccess" jcr:mixinTypes="jmix:requiredPermissions" jcr:primaryType="jnt:gotoEdit" />
             </content-list>
           </header-col1>
-          <footerTop-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <footerTop-col1 j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:contentList">
             <topfooter1 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea">
               <rich-text j:originWS="default" jcr:primaryType="jnt:bigText">
                 <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Commentaires&lt;/h3&gt;&#xA;" />
@@ -199,7 +199,7 @@
               </rich-text>
             </topfooter1>
           </footerTop-col1>
-          <footerTop-col3 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <footerTop-col3 j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:contentList">
             <topfooter3 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
           </footerTop-col3>
           <footer-col1 j:originWS="default" jcr:primaryType="jnt:contentList">
@@ -237,7 +237,7 @@
           <footerTop-col5 j:originWS="default" jcr:primaryType="jnt:contentList">
             <topfooter5 j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
           </footerTop-col5>
-          <footerTop-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
+          <footerTop-col2 j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:contentList">
             <rich-text j:originWS="default" jcr:primaryType="jnt:bigText">
               <j:translation_fr jcr:language="fr" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Derniers commentaires&lt;/h3&gt;&#xA;" />
               <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" text="&lt;h3&gt;&#xA; Last Comments&lt;/h3&gt;&#xA;" />

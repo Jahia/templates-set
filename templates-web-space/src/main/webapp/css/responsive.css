@@ -1,0 +1,162 @@
+/******************************************************************************
+* responsive
+******************************************************************************/
+
+@media (max-width: 1025px) {
+
+    .bodywrapper #content {
+        padding-bottom: 0.2em;
+        padding-top: 0.2em;
+    }
+    .container_16 .grid_1,
+    .container_16 .grid_2,
+    .container_16 .grid_3,
+    .container_16 .grid_4,
+    .container_16 .grid_5,
+    .container_16 .grid_6,
+    .container_16 .grid_7,
+    .container_16 .grid_8,
+    .container_16 .grid_9,
+    .container_16 .grid_10,
+    .container_16 .grid_11,
+    .container_16 .grid_12,
+    .container_16 .grid_13,
+    .container_16 .grid_14,
+    .container_16 .grid_15,
+    .container_16 .grid_16 {
+        display: block;
+        float: none;
+        width:auto;
+        margin:0;
+    }
+	.container_12,
+	.container_16 {
+        margin-left: 1%;
+        margin-right: 1%;
+        width:98% !important;
+        min-width:240px;
+	}
+
+    .bodywrapper .columns2 .column-item,
+    .bodywrapper .columns3 .column-item,
+    .bodywrapper .columns4 .column-item,
+    .bodywrapper .columns5 .column-item {
+        float: none;
+        width: auto;
+        overflow: hidden;
+        display: block;
+    }
+    .bodywrapper .columns2 .column-item .spacer,
+    .bodywrapper .columns3 .column-item .spacer,
+    .bodywrapper .columns4 .column-item .spacer,
+    .bodywrapper .columns5 .column-item .spacer {
+        padding: 0 0 0.5em 0;
+    }
+    .bodywrapper .facetsList li {
+        display:inline-block;
+    }
+    input[type="submit"],input[type="reset"],input {
+        -webkit-appearance: none;
+    }
+    .bodywrapper #logo-top-container {
+    }
+    .bodywrapper #logo-top {
+    }
+    .bodywrapper #logo-top img {
+    }
+
+    #footerTop {
+        text-align: center;
+    }
+    .bodywrapper .navigation .navbar ul.navmenu li {
+        line-height: 35px !important;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .bodywrapper .navigation .navbar ul.navmenu li a {
+        line-height: 35px!important;
+    }
+    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:hover {
+        line-height: 35px!important;
+    }
+    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:hover {
+        line-height: 35px!important;
+    }
+    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren div {
+        top: 35px !important;
+    }
+}
+/******************************************************************************
+* Responsive utility classes
+******************************************************************************/
+    .hidden {
+      display: none;
+      visibility: hidden;
+    }
+    .visible-phone {
+      display: none !important;
+    }
+    .visible-tablet {
+      display: none !important;
+    }
+    .hidden-desktop {
+      display: none !important;
+    }
+
+@media (max-width: 767px) {
+      .visible-phone {
+        display: inherit !important;
+      }
+      .hidden-phone {
+        display: none !important;
+      }
+      .hidden-desktop {
+        display: inherit !important;
+      }
+      .visible-desktop {
+        display: none !important;
+      }
+    }
+@media (min-width: 768px) and (max-width: 1024px) {
+      .visible-tablet {
+        display: inherit !important;
+      }
+      .hidden-tablet {
+        display: none !important;
+      }
+      .hidden-desktop {
+        display: inherit !important;
+      }
+      .visible-desktop {
+        display: none !important ;
+      }
+}
+/******************************************************************************
+* Responsive specific phone portrait
+******************************************************************************/
+@media (max-width: 480px)and (orientation:portrait) {
+      .hidden-phone-portrait {
+        display: none !important;
+      }
+      .bodywrapper .fc-header-title h2 {
+        font-size: 0.8em;
+      }
+      .fc .fc-header-space {
+        padding-left: 1px;
+      }
+      .bodywrapper .paginationNavigation {
+        float: none;
+        clear:both;
+      }
+
+}
+
+@media (max-width: 767px) {
+      .bodywrapper {
+        -webkit-text-size-adjust:80%;
+      }
+      .bodywrapper .tabContainer {
+        margin-bottom: 0.2em;
+        padding: 10px 5px;
+      }
+}

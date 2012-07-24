@@ -16,9 +16,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="${fn:substring(renderContext.request.locale,0,2)}">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+    <meta name='HandheldFriendly' content='True'/>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
     <jcr:nodeProperty node="${renderContext.mainResource.node}" name="jcr:description" inherited="true" var="description"/>
     <jcr:nodeProperty node="${renderContext.mainResource.node}" name="jcr:createdBy" inherited="true" var="author"/>
     <jcr:nodeProperty node="${renderContext.mainResource.node}" name="j:keywords" inherited="true" var="kws"/>
@@ -44,30 +47,13 @@
 <body>
 
 <div class="bodywrapper"><!--start bodywrapper-->
-  <!-- ACME logo -->
-  <div id="header">
-    <template:module path="header-col1"/>
-  </div>
-  <!-- Navigation menu -->
-  <template:module path="headerBottom-colContent"/>
-  <!-- Main content for most templates -->
-  <template:area path="maincontent"/>
-
-  <!-- News detail view -->
-  <template:area path="row-col1/mainResourceDisplay"/>
-
-  <!-- Event list view -->
-  <template:area path="row1-col1/events"/>
-
-  <!-- Publications list view -->
-  <template:area path="row1-col1/publications"/>
+    <template:area path="pagecontent"/>
 </div>
-<!--stop bodywrapper-->
 
 <c:if test="${renderContext.editMode}">
     <template:addResources type="css" resources="edit.css" />
 </c:if>
-<template:addResources type="css" resources="960.css,mobile-01web.css,02mod.css,mobile-navigationN1.css,navigationN2-2.css"/>
+<template:addResources type="css" resources="960.css,01web.css,02mod.css,navigation.css,navigationN2-2.css,responsive.css"/>
 <template:theme/>
 
 </body>
