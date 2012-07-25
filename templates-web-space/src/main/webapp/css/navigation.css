@@ -80,7 +80,7 @@
 	color: #7F8384;
 }
 .bodywrapper .navigation .navbar ul.navmenu li.selected a,
-.bodywrapper .navigation .navbar ul.navmenu li.inPath  a {
+.bodywrapper .navigation .navbar ul.navmenu li.inPath a {
 	color: #9D50CA;
 }
 .bodywrapper .navigation .navbar ul.navmenu li.hasChildren div {
@@ -102,6 +102,7 @@
 	margin:0px;
 
 }
+
 .bodywrapper .navigation .navbar ul.navmenu li.hasChildren div ul li {
 	padding: 5px;
 	padding-left: 10px;
