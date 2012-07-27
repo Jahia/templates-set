@@ -37,7 +37,7 @@
               <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
             <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
-              <content-list j:originWS="default" j:skin="skins.acmebox2" j:style="grey" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
+              <content-list j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" j:skin="skins.acmebox2" j:style="grey" jcr:mixinTypes="jmix:skinnable jmix:channelSelection jmix:acmestyle" jcr:primaryType="jnt:contentList">
                 <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:originWS="default" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
               </content-list>
               <Right-column j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
@@ -60,7 +60,7 @@
               <events j:allowedTypes="jnt:event" j:canDeleteInContribution="true" j:canOrderInContribution="true" j:contributeTypes="jnt:event" j:editableInContribution="true" j:originWS="default" jcr:mixinTypes="jmix:contributeMode" jcr:primaryType="jnt:area" />
             </row1-col1>
             <row1-col2 j:originWS="default" j:skin="skins.acmebox2" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
-              <side-menu j:baselineNode="home" j:maxDepth="3" j:originWS="default" j:startLevel="1" j:styleName="navigationN2" jcr:primaryType="jnt:navMenu" />
+              <side-menu j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:baselineNode="home" j:maxDepth="3" j:originWS="default" j:startLevel="1" j:styleName="navigationN2" jcr:mixinTypes="jmix:channelSelection" jcr:primaryType="jnt:navMenu" />
               <calendar endDateProperty="endDate" j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:calendar" startDateProperty="startDate" />
               <facets j:bindedComponent="_x002f_templateSets_x002f_templates-web-space_x002f_templates_x002f_base_x002f_events_x002f_row1-col1_x002f_events" j:originWS="default" jcr:primaryType="jnt:facets" j:type="jnt:event">
                 <fieldFacet facet="type" field="jnt:event;eventsType" j:originWS="default" jcr:primaryType="jnt:fieldFacet" limit="100" mincount="1" missing="false" offset="0">
@@ -102,7 +102,7 @@
               <illustration j:allowedTypes="jnt:imageReference" j:level="1" j:originWS="default" jcr:primaryType="jnt:absoluteArea" />
             </illustration>
             <content-col2 j:originWS="default" jcr:primaryType="jnt:contentList">
-              <content-list j:originWS="default" j:skin="skins.acmebox2" j:style="white" jcr:mixinTypes="jmix:skinnable jmix:acmestyle" jcr:primaryType="jnt:contentList">
+              <content-list j:channelIncludeOrExclude="exclude" j:channelSelection="apple_ipad_ver1 generic_mobile" j:originWS="default" j:skin="skins.acmebox2" j:style="white" jcr:mixinTypes="jmix:skinnable jmix:channelSelection jmix:acmestyle" jcr:primaryType="jnt:contentList">
                 <navMenu j:baselineNode="home" j:maxDepth="3" j:menuItemView="menuElement" j:originWS="default" j:startLevel="1" j:styleName="navigationN2-2" jcr:primaryType="jnt:navMenu" />
               </content-list>
               <Right-column j:allowedTypes="" j:originWS="default" jcr:primaryType="jnt:area" />
