@@ -299,7 +299,9 @@
 @media (max-width: 767px) {
 
     .bodywrapper .shortcuts-inline li.shortcuts-typoincrease,
-    .bodywrapper .shortcuts-inline li.shortcuts-typoreduce{
+    .bodywrapper .shortcuts-inline li.shortcuts-typoreduce,
+    .bodywrapper .shortcuts-inline li.shortcuts-print,
+    .bodywrapper .shortcuts-inline li.shortcuts-mysettings{
         display: none;
     }
     .bodywrapper {
@@ -313,6 +315,7 @@
 
     .bodywrapper #content img {
         max-width: 100% !important;
+        height:auto !important;
     }
     .bodywrapper #headerBottom .container_16 .grid_11 {
         float: right;
@@ -327,5 +330,8 @@
         padding-top: 12px;
         padding-bottom: 15px;
         float: right;
+    }
+    .bodywrapper .navigation select {
+        width:150px !important;
     }
 }
