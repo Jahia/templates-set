@@ -315,5 +315,18 @@
     .bodywrapper #content img {
         max-width: 100% !important;
     }
+    .bodywrapper #headerBottom .container_16 .grid_11 {
+        float: right;
+    }
+    .bodywrapper #headerBottom .container_16 .grid_2 {
+        clear: both;
+        display:block;
+        text-align: right
+    }
 
+    .bodywrapper .navigation {
+        padding-top: 12px;
+        padding-bottom: 15px;
+        float: right;
+    }
 }
