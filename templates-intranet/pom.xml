@@ -78,7 +78,7 @@
 		                    <Specification-Version>${project.version}</Specification-Version>
 		                    <Specification-Vendor>${jahia.manifest.vendor.name}</Specification-Vendor>
                             <package-name>${project.name}</package-name>
-                            <depends>Default Jahia Templates, Jahia Grid Pages</depends>
+                            <depends>default,grid,search,calendar,facets,profile,summary</depends>
                             <root-folder>${project.artifactId}</root-folder>
                             <module-type>templatesSet</module-type>
                         </manifestEntries>
