@@ -13,3 +13,11 @@
 	max-width:300px;
 	max-height:50px;
 }
+.bodywrapper #logo-top  .button-placeholder  img {
+        width: 16px;
+        height: 16px;
+    }
+.bodywrapper #footerTop  .button-placeholder .container_16 .grid_3 img {
+        width: 16px;
+        height: 16px;
+    }
