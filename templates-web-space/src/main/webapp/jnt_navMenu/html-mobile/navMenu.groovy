@@ -45,7 +45,7 @@ printMenu = { node, navMenuLevel, omitFormatting ->
         children.eachWithIndex() { menuItem, index ->
             itemPath = menuItem.path
             inpath = renderContext.mainResource.node.path == itemPath || renderContext.mainResource.node.path.startsWith(itemPath)
-            selected = menuItem.isNodeType("jmix:link") ?
+            isSelected = menuItem.isNodeType("jmix:link") ?
                 renderContext.mainResource.node.path == menuItem.properties['j:node'].node.path :
                 renderContext.mainResource.node.path == itemPath
             correctType = true
@@ -55,11 +55,12 @@ printMenu = { node, navMenuLevel, omitFormatting ->
                     correctType |= it.node == currentNode
                 }
             }
+            selected = isSelected? "selected" : "";
             if ((startLevelValue < navMenuLevel || inpath) && correctType) {
                 empty = false;
                 hasChildren = navMenuLevel < maxDepth.long && JCRTagUtils.hasChildrenOfType(menuItem,"jnt:page,jnt:nodeLink,jnt:externalLink")
                 if (startLevelValue < navMenuLevel) {
-                    listItemCssClass = (hasChildren ? "hasChildren" : "") + (inpath ? " inpath" : "") + (selected ? " selected" : "") + (index == 0 ? " firstInLevel" : "") + (index == children.size()-1 ? " lastInLevel" : "") ;
+                    listItemCssClass = (hasChildren ? "hasChildren" : "") + (inpath ? " inpath" : "") + (isSelected ? " selected" : "") + (index == 0 ? " firstInLevel" : "") + (index == children.size()-1 ? " lastInLevel" : "") ;
 
                     // template:module : page.menuElement.jsp - need to handle other types than page
                     prefix = ""
@@ -72,21 +73,21 @@ printMenu = { node, navMenuLevel, omitFormatting ->
                     if (menuItem.isNodeType("jnt:page")) {
                         link = menuItem.url
 
-                        print "<option value=\"${link}\"${linkTitle}>${title}</option>"
+                        print "<option ${selected} value=\"${link}\"${linkTitle}>${title}</option>"
                     } else if (menuItem.isNodeType("jnt:nodeLink")) {
                         reference = menuItem.properties['j:node']
                         target = menuItem.properties['j:target']
                         if (reference && reference.node) {
                             link = url.base + reference.node.path + ".html"
-                            print "<option value=\"${link}\"${linkTitle} ${target ? target.string : ""}>${title}</option>"
+                            print "<option ${selected} value=\"${link}\"${linkTitle} ${target ? target.string : ""}>${title}</option>"
                         }
                     } else if (menuItem.isNodeType("jnt:externalLink")) {
                         url = menuItem.properties['j:url']
                         target = menuItem.properties['j:target']
                         if (!url.string.startsWith("http")) {
-                            print "<option value=\"http://${url.string}\" ${linkTitle} ${target ? target.string : ""}>${title}</option>"
+                            print "<option ${selected} value=\"http://${url.string}\" ${linkTitle} ${target ? target.string : ""}>${title}</option>"
                         } else {
-                            print "<option value=\"${url.string}\" ${linkTitle} ${target ? target.string : ""}>${title}</option>"
+                            print "<option ${selected} value=\"${url.string}\" ${linkTitle} ${target ? target.string : ""}>${title}</option>"
                         }
                     }
                     // end template:module
