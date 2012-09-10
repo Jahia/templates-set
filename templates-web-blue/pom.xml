@@ -70,7 +70,7 @@
 		                    <Specification-Version>${project.version}</Specification-Version>
 		                    <Specification-Vendor>${jahia.manifest.vendor.name}</Specification-Vendor>
                             <package-name>${project.name}</package-name>
-                            <depends>default,grid,calendar,event,facets,news,search,sitemap,skins,profile</depends>
+                            <depends>default,grid,calendar,event,facets,news,search,sitemap,skins,default-skins,profile</depends>
                             <root-folder>${project.artifactId}</root-folder>
                             <module-type>templatesSet</module-type>
                         </manifestEntries>

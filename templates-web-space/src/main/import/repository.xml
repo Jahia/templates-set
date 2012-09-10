@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:jnt="http://www.jahia.org/jahia/nt/1.0" xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:commix="http://www.jahia.com/jahia/mix/1.0" xmlns:jmix="http://www.jahia.org/jahia/mix/1.0" xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:rep="internal">
   <templateSets jcr:primaryType="jnt:templateSets">
-    <templates-web-space changefreq="monthly" j:dependencies="default grid calendar event facets news search sitemap skins blog rating" j:installedModules="Jahia Web Templates Space" j:originWS="default" j:siteType="templatesSet" j:title="Jahia Web Templates Space" j:wcagCompliance="true" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:virtualsite" priority="0.5">
+    <templates-web-space changefreq="monthly" j:dependencies="default grid calendar event facets news search sitemap skins default-skins blog rating" j:installedModules="Jahia Web Templates Space" j:originWS="default" j:siteType="templatesSet" j:title="Jahia Web Templates Space" j:wcagCompliance="true" jcr:mixinTypes="jmix:sitemap" jcr:primaryType="jnt:virtualsite" priority="0.5">
       <portlets j:originWS="default" jcr:primaryType="jnt:portletFolder" />
       <files j:originWS="default" jcr:primaryType="jnt:folder" />
       <contents j:originWS="default" jcr:primaryType="jnt:contentFolder" />
