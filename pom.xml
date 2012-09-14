@@ -146,6 +146,7 @@
     </profiles>
 
     <modules>
+        <module>prepackagedSites</module>
         <module>templates-intranet</module>
 		<module>templates-web</module>
 		<module>templates-web-blue</module>

@@ -52,10 +52,14 @@
 
 
   <modules>
+    <!--
     <module>acme</module>
+    -->
     <module>acme-space</module>
+    <!--
     <module>webtemplates</module>
     <module>corpv2demo5x</module>
+    -->
   </modules>
 
 </project>
