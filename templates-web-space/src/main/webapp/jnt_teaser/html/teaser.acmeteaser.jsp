@@ -10,7 +10,8 @@
  <%--<jcr:nodeProperty node="${currentNode}" name="link" var="link"/>--%>
 
 <div class="boxacmeteaser">
-<template:addCacheDependency uuid="${currentNode.properties.link.string}"/>
+    <template:addCacheDependency uuid="${currentNode.properties.link.string}"/>
+    <template:addCacheDependency uuid="${image.string}"/>
 	<c:if test="${not empty currentNode.properties.link.node}">
 		<a style="padding-left: 90px; background: url('${image.node.url}') 10px 10px no-repeat;" href="<c:url value='${url.base}${currentNode.properties.link.node.path}.html'/>">
 				<h3 style="margin: 5px 0px 5px 0px;"><jcr:nodeProperty node="${currentNode}" name="jcr:title"/></h3>
