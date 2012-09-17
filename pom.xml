@@ -157,7 +157,7 @@
         <plugins>
             <plugin>
                 <groupId>org.jahia.server</groupId>
-                <artifactId>maven-jahia-plugin</artifactId>
+                <artifactId>jahia-maven-plugin</artifactId>
                 <version>${jahia.plugin.version}</version>
                 <executions>
                     <execution>
