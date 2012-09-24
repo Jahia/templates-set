@@ -52,9 +52,8 @@
 
 
   <modules>
-    <!--
+    
     <module>acme</module>
-    -->
     <module>acme-space</module>
     <!--
     <module>webtemplates</module>
