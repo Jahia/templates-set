@@ -62,10 +62,6 @@
         display: inline-block;
     }
 
-    input[type="submit"], input[type="reset"], input {
-        -webkit-appearance: none;
-    }
-
     #footerTop {
         text-align: center;
     }
