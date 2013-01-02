@@ -11,9 +11,10 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<a class="atopcomments" href="<c:url value='${url.base}${currentNode.parent.parent.path}.html'/>"><jcr:nodeProperty
+<c:if test="${empty param.v }">
+  <a class="atopcomments" href="<c:url value='${url.base}${currentNode.parent.parent.path}.html'/>"><jcr:nodeProperty
         node="${jcr:getParentOfType(currentNode,'jnt:page')}"
         name="jcr:title"/>&nbsp;-&nbsp;<jcr:nodeProperty node="${currentNode}" name="jcr:title"/></a>
-<jcr:nodeProperty node="${currentNode}" name="jcr:lastModified" var="lastModified"/>
-<span class="listinfo timestamp"><fmt:formatDate value="${lastModified.time}" pattern="yyyy/MM/dd HH:mm"/></span>
-
+  <jcr:nodeProperty node="${currentNode}" name="jcr:lastModified" var="lastModified"/>
+  <span class="listinfo timestamp"><fmt:formatDate value="${lastModified.time}" pattern="yyyy/MM/dd HH:mm"/></span>
+</c:if>
