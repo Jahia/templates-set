@@ -1,17 +1,17 @@
 /*shortcuts*/
-.bodywrapper #slider,.bodywrapper #slider li,
-.bodywrapper #slider2,.bodywrapper #slider2 li{
+ #slider, #slider li,
+ #slider2, #slider2 li{
 	height:280px;
 	margin-bottom:0;
 }
 #prevBtn, #nextBtn, #slider1next, #slider1prev {
 	top:62px !important;
 }
-.bodywrapper #banner {
+ #banner {
     height: 280px !important;
 	 margin: 0;
 }
-.bodywrapper #banner h2 {
+ #banner h2 {
     background: none;
 	padding-bottom:0;
 	margin-bottom:0;
@@ -30,7 +30,7 @@
     padding-right: 0;
     padding-top: 0;
 }
-.bodywrapper #banner p {
+ #banner p {
 	padding-bottom:0;
 	margin-bottom:0;
 	margin-right:320px;
@@ -46,7 +46,7 @@ ol#controls {
     text-transform: uppercase;
 }
 
-.bodywrapper ol#controls {
+ ol#controls {
     list-style: none outside none;
     margin: 5px 0;
     padding: 5px 12px;
@@ -58,7 +58,7 @@ ol#controls {
 	border:none;
 }
 
-.bodywrapper ol#controls li {
+ ol#controls li {
     list-style: none outside none;
 	 margin: 0 5px 0 0;
 }
@@ -101,22 +101,22 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
     outline: medium none;
 }
 
-.bodywrapper #slider ul li, .bodywrapper #slider2 ul li {
+ #slider ul li,  #slider2 ul li {
     list-style: none outside none;
     margin: 0;
     padding: 0;
 }
 
 /*shortcuts*/
-.bodywrapper div.shortcuts-inline {
+ div.shortcuts-inline {
 	font-size:100%;
 	padding:0;
 }
-.bodywrapper .shortcuts-inline li.shortcuts-login {
+ .shortcuts-inline li.shortcuts-login {
 	background:none;
 	border:none
 }
-.bodywrapper p.newsInfo {
+ p.newsInfo {
 	border-bottom:none;
 	border-top:none;
 	margin:0;
@@ -126,7 +126,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 	background-color:#003399;
 	border-color:#000099;
 }
-.bodywrapper .fc-header h2 {
+ .fc-header h2 {
 	background:none;
 	padding-bottom:0;
 }
@@ -134,17 +134,17 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 	background-color:#ccffcc;
 }
 /*jobs*/
-.bodywrapper .jobsSearchForm .jobsSearchKeyword input {
+ .jobsSearchForm .jobsSearchKeyword input {
 	width:200px;
 }
 /******************************************************************************
 *  News List
 ******************************************************************************/
-.bodywrapper p.newsInfo {
+ p.newsInfo {
     margin: 1em 0;
 	padding: 0 ;
 }
-.bodywrapper .newsListItem h4 {
+ .newsListItem h4 {
     margin: 0;
     padding: 0;
     border: none;
@@ -153,16 +153,16 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 	line-height:normal;
 }
 
-.bodywrapper .newsListItem h4 a,
-    .bodywrapper .newsListItem h4 a:link,
-    .bodywrapper .newsListItem h4 a:visited {
+ .newsListItem h4 a,
+     .newsListItem h4 a:link,
+     .newsListItem h4 a:visited {
     color: #9D50CA;
     text-decoration: none;
     background: none;
 }
 
-.bodywrapper .newsListItem h4 a:hover,
-    .bodywrapper .newsListItem h4 a:active {
+ .newsListItem h4 a:hover,
+     .newsListItem h4 a:active {
     color: #9D50CA;
     text-decoration: underline;
     background: none;
@@ -170,19 +170,19 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 /******************************************************************************
 *  Sitemap
 ******************************************************************************/
-.bodywrapper .sitemap {
+ .sitemap {
     background-color: transparent;
 }
-.bodywrapper #primaryNav {
+ #primaryNav {
     background-color: transparent;
 }
-.bodywrapper #primaryNav li li ul {
+ #primaryNav li li ul {
     background-color: transparent;
 	}
 /******************************************************************************
 *  Event
 ******************************************************************************/
-.bodywrapper div.eventsDate {
+ div.eventsDate {
     background-image: none;
     background-color:#9D50CA;
     color: #fff;
@@ -190,16 +190,16 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
     font-family:  "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
     padding-top: 0;
 }
-.bodywrapper div.eventsTxtDate {
+ div.eventsTxtDate {
      background-image: url("img/eventstxtdate.png");
 }
-.bodywrapper .eventsListItem .day {
+ .eventsListItem .day {
     color: #fff;
 }
-.bodywrapper .eventsListItem .month {
+ .eventsListItem .month {
     color: #fff;
 }
-.bodywrapper .eventsListItem .year {
+ .eventsListItem .year {
     background-image: none;
     color: #fff;
     padding-top: 2px;
@@ -208,11 +208,11 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus {
 *   Comment Link
 ******************************************************************************/
 
-.bodywrapper a.atopcomments {
+ a.atopcomments {
     background: url(img/atopcomments.png ) no-repeat scroll 0.2em 0em;
 	padding-left:24px;
     line-height: 200%;
 }
-.bodywrapper span.listinfo  {
+ span.listinfo  {
     font-size:0.8em;
 }

@@ -17,63 +17,62 @@ body {
 	line-height:125%;
 	font-size:78%;
 }
-.bodywrapper {}
 /******************************************************************************
 * Utils
 ******************************************************************************/
 .collapsible {
 	display:none;
 }
-.bodywrapper .clear {
+ .clear {
 	clear:both;
 }
-.bodywrapper .clearitem 	{
+ .clearitem 	{
 	clear:both;
 }
-.bodywrapper br.clear {
+ br.clear {
 	clear:both;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height:0px;	/* no height ! */
 	font-size:0px;
 }
-.bodywrapper .hide, .bodywrapper .hidden {
+ .hide,  .hidden {
 	display:none;
 }
 
-.bodywrapper .floatright {
+ .floatright {
 	float:right;
 	position:relative;
 	margin: 5px;
 }
-.bodywrapper .floatleft {
+ .floatleft {
 	float:left;
 	position:relative;
 	margin: 5px;
 }
 
-.bodywrapper .leftside{
+ .leftside{
 	float:left;
 	position:relative;
 }
-.bodywrapper .rightside{
+ .rightside{
 	float: right;
 	position:relative;
 }
-.bodywrapper .clearMaringPadding{
+ .clearMaringPadding{
 	padding:0;
 	margin:0;
 }
 /******************************************************************************
 *  Float Right List for ordered or unordered links list
 ******************************************************************************/
-.bodywrapper .FloatRightList ul {
+ .FloatRightList ul {
 	text-align:right;
 	list-style:none;
 	margin:0;
 	padding:0;
 }
 
-.bodywrapper .FloatRightList li {
+ .FloatRightList li {
 	list-style:none;
 	padding-left:1em;
 	display:inline;
@@ -82,12 +81,12 @@ body {
 /******************************************************************************
 * list Arrow
 ******************************************************************************/
-.bodywrapper ul.arrowList, .arrowList ul {
+ ul.arrowList, .arrowList ul {
 	margin:5px 0;
 	position:relative;
 	list-style:none;
 }
-.bodywrapper .arrowList li {
+ .arrowList li {
 	background: url(img/arrow.png) no-repeat 0 2px;
 	padding:0 0 0 12px;
 	clear:left;
@@ -97,7 +96,7 @@ body {
 *  Hilight List
 ******************************************************************************/
 
-.bodywrapper .hilightList ul {
+ .hilightList ul {
 	list-style-image:none;
 	list-style-position:outside;
 	list-style-type:none;
@@ -105,14 +104,14 @@ body {
 	padding:0;
 	border-bottom:none;
 }
-.bodywrapper .hilightList li {
+ .hilightList li {
 	list-style-type:none;
 	margin:0;
 	padding:0;
 }
-.bodywrapper .hilightList li a,
-.bodywrapper .hilightList li a:link,
-.bodywrapper .hilightList li a:visited
+ .hilightList li a,
+ .hilightList li a:link,
+ .hilightList li a:visited
 {
 	border-bottom:1px solid #ccc;
 	padding:0.2em 0.5em;
@@ -120,8 +119,8 @@ body {
 	text-decoration:none;
 	color:#333;
 }
-.bodywrapper .hilightList li a:hover,
-.bodywrapper .hilightList li a:active {
+ .hilightList li a:hover,
+ .hilightList li a:active {
 	text-decoration:none;
 	color:#003399;
 	background-color:#eaeaea
@@ -131,7 +130,7 @@ body {
 * Breadcrumb
 ******************************************************************************/
 
-.bodywrapper ul.breadcrumb  {
+ ul.breadcrumb  {
 	margin:1em 0;
 	padding:0;
 	list-style:none;
@@ -139,16 +138,16 @@ body {
 	text-transform:uppercase;
 	font-size:85%;
 }
-.bodywrapper ul.breadcrumb li {
+ ul.breadcrumb li {
 	display:inline;
 	margin:0;
 	padding:0;
 	background: none;
 	margin: 0 ;
 }
-.bodywrapper ul.breadcrumb a,
-.bodywrapper ul.breadcrumb a:link,
-.bodywrapper ul.breadcrumb a:visited
+ ul.breadcrumb a,
+ ul.breadcrumb a:link,
+ ul.breadcrumb a:visited
 {
 	padding:0 1em 0 0;
 	margin:0;
@@ -156,15 +155,15 @@ body {
 	color:#333;
 	text-decoration:none;
 }
-.bodywrapper ul.breadcrumb a:hover,
-.bodywrapper ul.breadcrumb a:active {
+ ul.breadcrumb a:hover,
+ ul.breadcrumb a:active {
 	color:#333;
 	text-decoration:underline;
 }
 /******************************************************************************
 *  header
 ******************************************************************************/
-.bodywrapper #header{
+ #header{
 	background:#2c8bc5 url(img/header-bg.png) repeat-x bottom left;
 	color:#fff;
 	padding-top:5px;
@@ -173,26 +172,26 @@ body {
 	z-index:900;
 	width:100%
 }
-.bodywrapper #header a,
-.bodywrapper #header a:link,
-.bodywrapper #header a:visited {
+ #header a,
+ #header a:link,
+ #header a:visited {
 	color:#fff;
 	text-decoration:none;
 	line-height:160%;
 }
-.bodywrapper #header a:hover,
-.bodywrapper #header a:active {
+ #header a:hover,
+ #header a:active {
 	color:#fff;
 	text-decoration:underline;
 }
 /******************************************************************************
 Search form top
 ******************************************************************************/
-.bodywrapper #header form.simplesearchform .text-input {
+ #header form.simplesearchform .text-input {
 	width:304px !important;
 	 border: 1px solid #333
 }
-.bodywrapper #header form.simplesearchform {
+ #header form.simplesearchform {
 	width:340px !important;
 	float:right;
 	margin-top:0.7em;
@@ -202,7 +201,7 @@ Search form top
 /******************************************************************************
 *  header
 ******************************************************************************/
-.bodywrapper #headerBottom{
+ #headerBottom{
 	background:#fff url(img/headerBottom-bg.png) repeat-x bottom left;
 	position:relative;
 	z-index:900;
@@ -212,7 +211,7 @@ Search form top
 /******************************************************************************
 *  illustration
 ******************************************************************************/
-.bodywrapper #illustration{
+ #illustration{
 	background:#f7f7f7 url(img/illustration-bg.png) repeat-y 50% 0%;
 	border-bottom:1px solid #efefef;
 	position:relative;
@@ -222,10 +221,10 @@ Search form top
 /******************************************************************************
 *  content
 ******************************************************************************/
-.bodywrapper .page {
+ .page {
 	background-color:#fff;
 }
-.bodywrapper #content{
+ #content{
 	padding-top:15px;
 	padding-bottom:15px;
 	position:relative;
@@ -235,7 +234,7 @@ Search form top
 /******************************************************************************
 *  footerTop
 ******************************************************************************/
-.bodywrapper #footerTop{
+ #footerTop{
 	background:transparent url(img/footer-bg.png) repeat-x bottom left;
 	background-color:#151615;
 	position:relative;
@@ -247,19 +246,19 @@ Search form top
 	padding:15px 0 ;
 }
 
-.bodywrapper #footerTop p {
+ #footerTop p {
 	padding:0;
 	color:#fff;
 }
-.bodywrapper #footerTop a,
-.bodywrapper #footerTop a:link,
-.bodywrapper #footerTop a:visited {
+ #footerTop a,
+ #footerTop a:link,
+ #footerTop a:visited {
 	color:#fff;
 	text-decoration:none;
 	line-height:160%;
 }
-.bodywrapper #footerTop a:hover,
-.bodywrapper #footerTop a:active {
+ #footerTop a:hover,
+ #footerTop a:active {
 	color:#fff;
 	text-decoration:underline;
 }
@@ -268,7 +267,7 @@ Search form top
 /******************************************************************************
 *  footer
 ******************************************************************************/
-.bodywrapper #footer{
+ #footer{
 	background-color:#fff;
 	position:relative;
 	z-index:500;
@@ -279,65 +278,65 @@ Search form top
 	padding:15px 0 ;
 }
 
-.bodywrapper #footer p {
+ #footer p {
 	padding:0;
 	color:#333;
 }
 
-.bodywrapper #footer a,
-.bodywrapper #footer a:link,
-.bodywrapper #footer a:visited {
+ #footer a,
+ #footer a:link,
+ #footer a:visited {
 	color:#333;
 	text-decoration:none;
 	line-height:160%;
 }
-.bodywrapper #footer a:hover,
-.bodywrapper #footer a:active {
+ #footer a:hover,
+ #footer a:active {
 	color:#333;
 	text-decoration:underline;
 }
 /******************************************************************************
 *  general
 ******************************************************************************/
-.bodywrapper img 			{ border: 0px;}
+ img 			{ border: 0px;}
 
-.bodywrapper a,
-.bodywrapper a:link,
-.bodywrapper a:visited {
+ a,
+ a:link,
+ a:visited {
 	color:#003399 ;
 	text-decoration:none;
 }
-.bodywrapper a:hover,
-.bodywrapper a:active {
+ a:hover,
+ a:active {
 	color:#003399 ;
 	text-decoration:underline;
 }
-.bodywrapper p {
+ p {
 	padding:1em 0 1em 0;
 }
-.bodywrapper ul {
+ ul {
 	list-style-type:square;
 	list-style-position:outside;
 	margin-bottom:6px;
 	margin-left:20px;
 	margin-top:6px;
 }
-.bodywrapper ol  {
+ ol  {
 	margin:1em 0 1em 2em;
 	padding:0;
 	list-style-position:outside;
 }
-.bodywrapper ol li {
+ ol li {
 	margin:0;
 	padding:0;
 	background: none;
 	list-style: decimal;
 }
-.bodywrapper ul li {
+ ul li {
 	margin-bottom:2px;
 	padding-left:8px;
 }
-.bodywrapper div.intro{
+ div.intro{
 	font-family:Georgia, "Times New Roman", Times, serif;
 	color:#0066ff;
 	font-size:1.4em;
@@ -345,15 +344,15 @@ Search form top
 	line-height:1.6em;
 	padding-bottom:1em;
 }
-.bodywrapper div.intro p{
+ div.intro p{
 	padding-bottom:1em;
 }
-.bodywrapper p.intro {
+ p.intro {
 	font-size:1.3em;
 	line-height:1.6em;
 }
 
-.bodywrapper h1 {
+ h1 {
 	color:#000;
 	font-weight:bold;
 	font-size:2em;
@@ -362,7 +361,7 @@ Search form top
 	text-transform: uppercase;
 }
 
-.bodywrapper h2 {
+ h2 {
 	font-weight:normal;
 	font-size:1.8em;
 	padding-bottom:20px;
@@ -370,7 +369,7 @@ Search form top
 	margin-top:15px;
 	background:transparent url(img/hr-bg.png) repeat-x bottom left;
 }
-.bodywrapper h2.pageTitle,.bodywrapper .pageTitle {
+ h2.pageTitle, .pageTitle {
 	margin:0;
 	color:#003399;
 	margin-bottom:5px;
@@ -379,32 +378,32 @@ Search form top
 	line-height:normal;
 	text-shadow: 0px 1px 1px #ccd6eb;
 }
-.bodywrapper h3 {
+ h3 {
 	font-weight:normal;
 	font-size:1.6em;
 	margin-bottom:10px;
 	margin-top:10px;
 	
 }
-.bodywrapper h4 {
+ h4 {
 	font-size:1.3em;
 	margin-bottom:10px;
 	margin-top:10px;
 	color:#003399;
 }
-.bodywrapper h5 {
+ h5 {
 	font-weight:bold;
 	font-size:1.1em;
 	color:#666;
 }
 
 
-.bodywrapper fieldset {
+ fieldset {
 	padding:0.5em;
 	border:1px solid #ccc;
 	margin:0.5em 0;
 }
-.bodywrapper legend {
+ legend {
 	font-size:1em;
 	color:#333;
 	padding:0 0.5em;
@@ -415,13 +414,13 @@ Search form top
 	text-transform:uppercase
 }
 
-.bodywrapper hr {
+ hr {
 	height:2px;
 	background:transparent url(img/hr-bg.png) repeat-x bottom left;
 	border: none;
 	margin : 18px 0;
 }
-.bodywrapper blockquote {
+ blockquote {
 	background:#E0E0E0 url(img/blockquote.png) no-repeat top left;
 	border:1px solid #A5A5A5;
 	font-style:italic;
@@ -437,32 +436,32 @@ Search form top
 	
 }
 
-.bodywrapper textarea {
+ textarea {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:100%
 }
-.bodywrapper p.field{
+ p.field{
 	margin-bottom:0.2em
 }
-.bodywrapper input,
-.bodywrapper select,
-.bodywrapper textarea {
+ input,
+ select,
+ textarea {
 	color:#666;
 	padding:2px ;
 	font-size:100%
 }
-.bodywrapper label {
+ label {
 	font-weight:bold;
 }
 
-.bodywrapper input.gobutton{
+ input.gobutton{
 	background:none;
 	border:none;
 	margin:0;
 	padding:0;
 	vertical-align: bottom;
 }
-.bodywrapper pre {
+ pre {
 	background-color:#eaeaea;
 	border-left:4px solid #003399;
 	font-family:Courier,"Courier New",monospace;
@@ -473,75 +472,75 @@ Search form top
 	padding:20px;
 	line-height:100%
 }
-.bodywrapper .highlight{
+ .highlight{
 	background-color:#ffff99;
 	padding-right:0.5em;
 	padding-left:0.5em;
 }
-.bodywrapper code, .bodywrapper .code {
+ code,  .code {
 	background-color:#eaeaea;
 	font-family:Courier,"Courier New",monospace;
 	font-weight:normal;
 	padding-right:0.5em;
 	padding-left:0.5em;
 }
-.bodywrapper .small {
+ .small {
 	font-weight:0.8em;
 }
-.bodywrapper .colorlight {
+ .colorlight {
 	color:#666
 }
 /******************************************************************************
 *  Images
 ******************************************************************************/
-.bodywrapper .imagefloatright {
+ .imagefloatright {
 	float:right;
 	margin-bottom:20px;
 	padding-left:20px;
 }
-.bodywrapper .imagefloatleft {
+ .imagefloatleft {
 	float:left;
 	margin-bottom:20px;
 	padding-right:20px;
 }
-.bodywrapper .imagefloatright {
+ .imagefloatright {
 	float:right;
 	margin-bottom:20px;
 	padding-left:20px;
 }
 
-.bodywrapper .itemImage {
+ .itemImage {
 	background-color:#F4F4F4;
 	border:1px solid #CCC;
 	position:relative;
 	padding:1px;
 	margin-bottom:10px;
 }
-.bodywrapper .imagefloatleft .itemImage  {
+ .imagefloatleft .itemImage  {
 	margin-bottom:0px;
 }
-.bodywrapper .imagefloatright .itemImage  {
+ .imagefloatright .itemImage  {
 	margin-bottom:0px;
 }
-.bodywrapper div.itemImageRight {
+ div.itemImageRight {
 	float:right;
 }
-.bodywrapper div.itemImageLeft {
+ div.itemImageLeft {
 	float:left;
 }
-.bodywrapper .itemImage img {
+ .itemImage img {
 	background-color:#e1e1e1;
 	display: block;
 	padding:9px;
 }
-.bodywrapper .itemImagewhite img{
+ .itemImagewhite img{
 	background-color:#fff;
 	display: block;
 }
 /******************************************************************************
 *  Pagination
 ******************************************************************************/
-.bodywrapper div.pagination {
+ div.pagination {
 	height:1%;
 	overflow:hidden;
 	text-transform:uppercase;
@@ -550,36 +549,36 @@ Search form top
 	margin:0.5em 0;
 	background:#e1e1e1  url(img/1px-white.png) repeat-x top left;
 }
-.bodywrapper .paginationPosition {
+ .paginationPosition {
 	float:left;
 	font-size:0.85em;
 	color:#36393d;
 }
-.bodywrapper .paginationNavigation {
+ .paginationNavigation {
 	float:right;
 	font-size:0.85em;
 
 }
-.bodywrapper .paginationNavigation a:link,
-.bodywrapper .paginationNavigation a:visited,
-.bodywrapper .paginationNavigation a:hover,
-.bodywrapper .paginationNavigation a:active {
+ .paginationNavigation a:link,
+ .paginationNavigation a:visited,
+ .paginationNavigation a:hover,
+ .paginationNavigation a:active {
 	text-decoration:none;
 	padding:0.2em 0.5em;
 }
 
-.bodywrapper .paginationNavigation a:hover {
+ .paginationNavigation a:hover {
 	background:#003399 ;
 	color:#fff;
 }
-.bodywrapper .paginationNavigation .currentPage{
+ .paginationNavigation .currentPage{
 	background:#003399 ;
 	color:#fff;
 	padding:0.2em 0.5em;
 }
 
 
-.bodywrapper .paginationNavigation span {
+ .paginationNavigation span {
 	text-decoration:none;
 	color:#666;
 	padding:0;
@@ -587,7 +586,7 @@ Search form top
 /******************************************************************************
 *  AlphabeticalMenu
 ******************************************************************************/
-.bodywrapper div.alphabeticalMenu {
+ div.alphabeticalMenu {
 	height:1%;
 	overflow:hidden;
 	text-transform:uppercase;
@@ -596,17 +595,17 @@ Search form top
 	margin:0.5em 0;
 	background:#e1e1e1  url(img/1px-white.png) repeat-x top left;
 }
-.bodywrapper .alphabeticalLabel {
+ .alphabeticalLabel {
 	float:left;
 	font-size:0.9em;
 	font-weight:bold;
 	color:#333;
 }
-.bodywrapper .alphabeticalNavigation {
+ .alphabeticalNavigation {
 	float:right;
 
 }
-.bodywrapper .alphabeticalNavigation .alphabeticalLetter  {
+ .alphabeticalNavigation .alphabeticalLetter  {
 		height:28px;
 		line-height:28px;
 		border:1px solid #ccc;
@@ -615,11 +614,11 @@ Search form top
 		text-decoration:none;
 }
 
-.bodywrapper .alphabeticalNavigation a:hover {
+ .alphabeticalNavigation a:hover {
 		background:#333;
 		color:#fff;
 }
-.bodywrapper .alphabeticalNavigation a.current{
+ .alphabeticalNavigation a.current{
 		height:28px;
 		line-height:28px;
 		border:1px solid #ccc;
@@ -630,7 +629,7 @@ Search form top
 }
 
 
-.bodywrapper .alphabeticalNavigation span {
+ .alphabeticalNavigation span {
 		text-decoration:none;
 		color:#666;
 		padding:0;
@@ -638,20 +637,20 @@ Search form top
 /******************************************************************************
 *  Button
 ******************************************************************************/
-.bodywrapper .divButton{
+ .divButton{
 	text-align:center;
 	margin:0 0 10px 0;
 	overflow:hidden;
 }
-.bodywrapper .divButtonRight{
+ .divButtonRight{
 	text-align:right;
 	overflow:hidden;
 }
-.bodywrapper input.button, .bodywrapper button {
+ input.button,  button {
 	margin-right:0.5em;
 }
 
-.bodywrapper input.button, .bodywrapper button {
+ input.button,  button {
 	background:#043b9d url(img/bg-button.png) repeat-x top left;
 	border:1px solid #003366;
 	outline:none;
@@ -663,7 +662,7 @@ Search form top
 	border-radius: 5px;
 
 }
-.bodywrapper .button:hover, .bodywrapper button:hover {
+ .button:hover,  button:hover {
 	cursor: pointer;
 	background:#043b9d url(img/bg-button-on.png) repeat-x bottom left;
 	color:#fff;
@@ -673,9 +672,9 @@ Search form top
 *  <A> Button
 ******************************************************************************/
 
-.bodywrapper  a.aButton,
-.bodywrapper  a.aButton:link,
-.bodywrapper  a.aButton:visited {
+  a.aButton,
+  a.aButton:link,
+  a.aButton:visited {
 	background: transparent url(img/button-right.png) no-repeat scroll top right;
 	display: block;
 	float: left;
@@ -687,39 +686,39 @@ Search form top
 	color:#fff;
 	margin-top: 5px;
 }
-.bodywrapper  a.aButton span {
+  a.aButton span {
 	/* Background left image */
 	background: transparent url(img/button-left.png) no-repeat;
 	display: block;
 	line-height: 12px; /* CHANGE THIS VALUE ACCORDING TO BUTTONG HEIGHT */
 	padding: 6px 0 6px 18px;
 }
-.bodywrapper  a.aButton:hover span{
+  a.aButton:hover span{
 	text-decoration:underline;
 }
-.bodywrapper  a.aButtonRight,
-.bodywrapper  a.aButtonRight:link,
-.bodywrapper  a.aButtonRight:visited{
+  a.aButtonRight,
+  a.aButtonRight:link,
+  a.aButtonRight:visited{
 	float: right;
 }
 /******************************************************************************
 *  Anchor
 ******************************************************************************/
-.bodywrapper div.bottomanchor {
+ div.bottomanchor {
 	padding:0.2em;
 	margin: 1em 0;
 	font-size:0.85em;
 	clear:both
 }
-.bodywrapper .bottomanchor a,
-.bodywrapper .bottomanchor a:link,
-.bodywrapper .bottomanchor a:visited  {
+ .bottomanchor a,
+ .bottomanchor a:link,
+ .bottomanchor a:visited  {
 	float:right;
 	margin:0 ;
 	text-transform:uppercase
 }
-.bodywrapper .bottomanchor a:hover ,
-.bodywrapper .bottomanchor a:active  {
+ .bottomanchor a:hover ,
+ .bottomanchor a:active  {
 	cursor: pointer;
 	text-decoration: underline;
 }
@@ -727,46 +726,46 @@ Search form top
 /******************************************************************************
 *  Thumbnails
 ******************************************************************************/
-.bodywrapper div.thumbnail {
+ div.thumbnail {
 	float:left;
 	position:relative;
 	margin-right:20px;
 }
-.bodywrapper div.thumbnailRight {
+ div.thumbnailRight {
 	float:right;
 	position:relative;
 	margin-left:20px;
 }
-.bodywrapper div.thumbnail img {
+ div.thumbnail img {
 	position:relative
 }
 
 /******************************************************************************
 *  Tables
 ******************************************************************************/
-.bodywrapper .table th img{
+ .table th img{
 	vertical-align: middle
 }
-.bodywrapper .table,
-.bodywrapper .table caption
+ .table,
+ .table caption
 {
     margin: auto;
 	line-height:1.9em;
 
 }
 
-.bodywrapper .table
+ .table
 {
     border-collapse:collapse;
 	margin-bottom:1em;
 	font-size:0.85em;
 	border:none;
 }
-.bodywrapper .table, .bodywrapper .table th, .bodywrapper .table td
+ .table,  .table th,  .table td
 {
 border: 1px solid #fff;
 }
-.bodywrapper .table caption
+ .table caption
 {
 	font-weight:normal;
 	font-size:2em;
@@ -774,29 +773,29 @@ border: 1px solid #fff;
 	padding:0;
 }
 
-.bodywrapper .table th {
+ .table th {
     color: #fff;
 	white-space:nowrap;
 	background-color:#003399;
 	padding:5px;
 }
-.bodywrapper .table td
+ .table td
 {
 	background-color:#fff;
 	padding:5px;
 }
-.bodywrapper .table tr:hover{
+ .table tr:hover{
 	background-color:#ccc
 }
-.bodywrapper .table .odd td{background-color:#eaeaea}
-.bodywrapper .table .even td{ background-color:#fff}
-.bodywrapper .col1{}
-.bodywrapper .col2{}
-.bodywrapper .col3{}
-.bodywrapper .col4{}
+ .table .odd td{background-color:#eaeaea}
+ .table .even td{ background-color:#fff}
+ .col1{}
+ .col2{}
+ .col3{}
+ .col4{}
 
-.bodywrapper .table td.center,
-.bodywrapper .table th.center
+ .table td.center,
+ .table th.center
 {
 	text-align:center;
 }
@@ -804,10 +803,10 @@ border: 1px solid #fff;
 /******************************************************************************
 *  Tabs
 ******************************************************************************/
-.bodywrapper div.idTabsContainer{
+ div.idTabsContainer{
 	margin:0 ;
 }
-.bodywrapper  ul.idTabs {
+  ul.idTabs {
 	clear:both;
 	list-style-type:none;
 	overflow:hidden;
@@ -816,17 +815,17 @@ border: 1px solid #fff;
 	padding:0;
 
 }
-.bodywrapper .idTabs li {
+ .idTabs li {
 	display:inline;
 	float:left;
 	margin:0;
 	padding:0;
 }
-.bodywrapper .idTabs li.spacing{
+ .idTabs li.spacing{
 	padding-left:20px;
 }
 
-.bodywrapper .idTabs li a {
+ .idTabs li a {
 	background:transparent url(img/tab-left.png) no-repeat scroll 0 0;
 	color:#003399;
 	display:inline;
@@ -837,16 +836,16 @@ border: 1px solid #fff;
 	text-decoration:none;
 	margin-right:2px
 }
-.bodywrapper .idTabs li a.selected,
-.bodywrapper .idTabs li a:hover,
-.bodywrapper .idTabs li a.selected {
+ .idTabs li a.selected,
+ .idTabs li a:hover,
+ .idTabs li a.selected {
 	background-position:0 -29px;
 	color:#003399;
 	text-decoration:none;
 }
 
 
-.bodywrapper .idTabs li a span {
+ .idTabs li a span {
 	background:transparent url(img/tab-right.png) no-repeat scroll 100% 0;
 	color:#666;
 	cursor:pointer;
@@ -858,9 +857,9 @@ border: 1px solid #fff;
 	text-decoration:none;
 
 }
-.bodywrapper .idTabs li a.selected span,
-.bodywrapper .idTabs li a:hover span,
-.bodywrapper .idTabs li a.idTabs span {
+ .idTabs li a.selected span,
+ .idTabs li a:hover span,
+ .idTabs li a.idTabs span {
 	background-position:100% -29px;
 	color:#fff;
 	text-decoration:none;
@@ -869,7 +868,7 @@ border: 1px solid #fff;
 /******************************************************************************
 *  Summary
 ******************************************************************************/
-.bodywrapper ul.summary, .bodywrapper .summary {
+ ul.summary,  .summary {
 	margin:10px 0;
 	line-height:130%;
 	padding: 10px;
@@ -879,22 +878,22 @@ border: 1px solid #fff;
 	list-style:none;
 }
 
-.bodywrapper .summary a,
-.bodywrapper .summary a:link,
-.bodywrapper .summary a:visited {
+ .summary a,
+ .summary a:link,
+ .summary a:visited {
 	text-decoration:none;
 }
-.bodywrapper .summary a:hover,
-.bodywrapper .summary a:active {
+ .summary a:hover,
+ .summary a:active {
 	text-decoration:underline;
 }
 
-.bodywrapper .summary ul {
+ .summary ul {
 	margin:0;
 	padding:0 0 0 2em;
 	list-style:none;
 }
-.bodywrapper .summary li {
+ .summary li {
 	padding:0;
 	margin-bottom:10px
 }
@@ -902,20 +901,20 @@ border: 1px solid #fff;
 /******************************************************************************
 * Form
 ******************************************************************************/
-.bodywrapper .Form  p{
+ .Form  p{
 	clear:both;
 	margin:0.2em 0;
 	padding:0px
 }
-.bodywrapper .Form {
+ .Form {
 	margin:1em 0 0 0;
 	overflow:hidden;
 }
-.bodywrapper .formMarginLeft{
+ .formMarginLeft{
 	margin:0 0 0 25%;
 	padding:0 1em 0 2.3em;
 }
-.bodywrapper .Form label.left {
+ .Form label.left {
 	float:left; 
 
 	width:25%;
@@ -923,7 +922,7 @@ border: 1px solid #fff;
 	padding:2px;
 	text-align:right;
 }
-.bodywrapper .divButton{
+ .divButton{
 	text-align:center;
 	margin:0.5em 0;
 }
@@ -931,12 +930,12 @@ border: 1px solid #fff;
 /******************************************************************************
 *  error
 ******************************************************************************/
-.bodywrapper input.error{
+ input.error{
 	background-color:#ffebe8;
 	border:1px solid #cc3300;
 }
 
-.bodywrapper label.error {
+ label.error {
  clear: both;
  display: block;
  margin: 10px 0;
@@ -951,14 +950,14 @@ border: 1px solid #fff;
 /******************************************************************************
 * Links
 ******************************************************************************/
-.bodywrapper div.more {
+ div.more {
     float: right;
     display: block;
 }
 
-.bodywrapper a.returnLink,
-.bodywrapper a.returnLink:link,
-.bodywrapper a.returnLink:visited{
+ a.returnLink,
+ a.returnLink:link,
+ a.returnLink:visited{
 	background:#eaeaea url(img/returnlink.png) no-repeat 8px 3px;
 	display: inline-block;
 	padding: 5px 10px 6px 30px;
@@ -985,8 +984,8 @@ border: 1px solid #fff;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.bodywrapper a.returnLink:hover,
-.bodywrapper a.returnLink:active {
+ a.returnLink:hover,
+ a.returnLink:active {
 	text-decoration:none;
 	color: #000;
 	text-shadow: 0px -1px 1px #fff;

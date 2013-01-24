@@ -1,25 +1,25 @@
-.bodywrapper .navigationN1 {
+ .navigationN1 {
 
 }
-.bodywrapper .navigationN1 ul {
+ .navigationN1 ul {
 	margin:0;
 	padding:0;
 	line-height:1.4em;
 	color:#333;
 }
-.bodywrapper .navigationN1 li {
+ .navigationN1 li {
 	list-style:none;
 	padding:0;
 	margin:0;
 	float:left;
 	text-align:center;
 }
-.bodywrapper .navigationN1 li.lastInLevel {
+ .navigationN1 li.lastInLevel {
 	border-right:none
 }
-.bodywrapper .navigationN1 li a,
-.bodywrapper .navigationN1 li a:link,
-.bodywrapper .navigationN1 li a:visited
+ .navigationN1 li a,
+ .navigationN1 li a:link,
+ .navigationN1 li a:visited
 {
 	color:#333;
 	display:block;
@@ -31,20 +31,20 @@
 	text-decoration:none;
 	border-bottom:3px solid #e8ebec;
 }
-.bodywrapper .navigationN1 li a:hover,
-.bodywrapper .navigationN1 li a:active {
+ .navigationN1 li a:hover,
+ .navigationN1 li a:active {
 	color:#003399;
 	text-decoration:none;
 	border-bottom:3px solid #1443a0;
 }
-.bodywrapper .navigationN1 li.selected a,
-.bodywrapper .navigationN1 li.selected a:link,
-.bodywrapper .navigationN1 li.selected a:visited,
-.bodywrapper .navigationN1 li.inPath a:hover,
-.bodywrapper .navigationN1 li.inPath a:active,
-.bodywrapper .navigationN1 li.inPath a,
-.bodywrapper .navigationN1 li.inPath a:link,
-.bodywrapper .navigationN1 li.inPath a:visited {
+ .navigationN1 li.selected a,
+ .navigationN1 li.selected a:link,
+ .navigationN1 li.selected a:visited,
+ .navigationN1 li.inPath a:hover,
+ .navigationN1 li.inPath a:active,
+ .navigationN1 li.inPath a,
+ .navigationN1 li.inPath a:link,
+ .navigationN1 li.inPath a:visited {
 	color:#003399;
 	border-bottom:3px solid #1443a0;
     text-decoration:none;

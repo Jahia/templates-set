@@ -3,7 +3,7 @@
 * Acme teaser
 ******************************************************************************/
 
-.bodywrapper div.boxacmeteaser > a {
+ div.boxacmeteaser > a {
     border: 1px solid transparent;
     color: #858586;
     display: block;
@@ -13,7 +13,7 @@
 	border-radius: 3px 3px 3px 3px;
     box-shadow: 0 0 0 1px transparent inset;
 }
-.bodywrapper div.boxacmeteaser > a:hover {
+ div.boxacmeteaser > a:hover {
     background-color: #F4F5F7 !important;
     border-color: #D9D9DA;
     color: #858586;

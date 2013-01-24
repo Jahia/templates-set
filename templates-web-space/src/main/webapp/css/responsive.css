@@ -4,7 +4,7 @@
 
 @media (max-width: 1025px) {
 
-    .bodywrapper #content {
+     #content {
         padding-bottom: 10px;
         padding-top: 10px;
     }
@@ -39,26 +39,26 @@
         min-width: 240px;
     }
 
-    .bodywrapper .columns2 .column-item,
-    .bodywrapper .columns3 .column-item,
-    .bodywrapper .columns4 .column-item,
-    .bodywrapper .columns5 .column-item {
+     .columns2 .column-item,
+     .columns3 .column-item,
+     .columns4 .column-item,
+     .columns5 .column-item {
         float: none;
         width: auto;
         overflow: hidden;
         display: block;
     }
 
-    .bodywrapper .columns2 .column-item .spacer,
-    .bodywrapper .columns3 .column-item .spacer,
-    .bodywrapper .columns4 .column-item .spacer,
-    .bodywrapper .columns5 .column-item .spacer {
+     .columns2 .column-item .spacer,
+     .columns3 .column-item .spacer,
+     .columns4 .column-item .spacer,
+     .columns5 .column-item .spacer {
         padding: 0 0 0.5em 0;
     }
-    .bodywrapper h2.pageTitle {
+     h2.pageTitle {
         margin-top: 0;
     }
-    .bodywrapper .facetsList li {
+     .facetsList li {
         display: inline-block;
     }
 
@@ -66,41 +66,41 @@
         text-align: center;
     }
 
-    .bodywrapper div.acmebox1 {
+     div.acmebox1 {
         background-image: none;
         padding-right: 0;
     }
 
-    .bodywrapper #illustration {
+     #illustration {
         padding-bottom: 10px;
         padding-top: 10px;
     }
 
-    .bodywrapper #headerBottom {
+     #headerBottom {
         mini-height: auto;
     }
 
-    .bodywrapper #logo-top-container {
+     #logo-top-container {
         position: relative;
     }
 
-    .bodywrapper #logo-top {
+     #logo-top {
         left: -10px;
         position: absolute;
         text-align: center;
         top: -10px;
     }
 
-    .bodywrapper #logo-top img {
+     #logo-top img {
         width: 100px;
     }
 
-    .bodywrapper .languageSwitching_horizontal_display {
+     .languageSwitching_horizontal_display {
         float: right;
         padding: 10px;
     }
 
-    .bodywrapper #headerBottom .container_16 .grid_3 {
+     #headerBottom .container_16 .grid_3 {
         width: 100px;
         display: inline;
         float: left;
@@ -109,12 +109,12 @@
         position: relative;
     }
 
-    .bodywrapper #headerBottom br.clear {
+     #headerBottom br.clear {
         clear: none;
         display: none;
     }
 
-    .bodywrapper #headerBottom .container_16 .grid_2 {
+     #headerBottom .container_16 .grid_2 {
         width: auto;
         display: inline;
         float: right;
@@ -123,7 +123,7 @@
         position: relative;
     }
 
-    .bodywrapper #headerBottom .container_16 .grid_11 {
+     #headerBottom .container_16 .grid_11 {
         width: auto;
         display: inline;
         float: left;
@@ -132,7 +132,7 @@
         position: relative;
     }
 
-    .bodywrapper #headerBottom form.simplesearchform {
+     #headerBottom form.simplesearchform {
         position: relative;
         width: 240px !important;
         margin-bottom: 0;
@@ -141,7 +141,7 @@
         float: left;
     }
 
-    .bodywrapper #headerBottom form.simplesearchform .text-input {
+     #headerBottom form.simplesearchform .text-input {
         width: 204px !important;
         border: solid 1px #eaeaea;
         outline: none;
@@ -225,7 +225,7 @@
         display: none !important;
     }
 
-    .bodywrapper .fc-header-title h2 {
+     .fc-header-title h2 {
         font-size: 0.8em;
     }
 
@@ -233,7 +233,7 @@
         padding-left: 1px;
     }
 
-    .bodywrapper .paginationNavigation {
+     .paginationNavigation {
         float: none;
         clear: both;
     }
@@ -243,83 +243,83 @@
 
 @media (min-width: 768px) and (max-width: 1025px) {
 
-    .bodywrapper .navigation .navbar {
+     .navigation .navbar {
         float: none;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li {
+     .navigation .navbar ul.navmenu li {
         line-height: 50px;
         padding-right: 5px;
         padding-left: 5px;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li a {
+     .navigation .navbar ul.navmenu li a {
         height: 50px;
         line-height: 50px;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:hover {
+     .navigation .navbar ul.navmenu li.hasChildren:hover {
         line-height: 50px;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:hover {
+     .navigation .navbar ul.navmenu li.noChildren:hover {
         line-height: 50px;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren div {
+     .navigation .navbar ul.navmenu li.hasChildren div {
         top: 50px;
     }
 
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren,
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:link,
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:visited,
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:active,
-    .bodywrapper .navigation .navbar ul.navmenu li.noChildren:hover,
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren,
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:link,
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:visited,
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:active,
-    .bodywrapper .navigation .navbar ul.navmenu li.hasChildren:hover {
+     .navigation .navbar ul.navmenu li.noChildren,
+     .navigation .navbar ul.navmenu li.noChildren:link,
+     .navigation .navbar ul.navmenu li.noChildren:visited,
+     .navigation .navbar ul.navmenu li.noChildren:active,
+     .navigation .navbar ul.navmenu li.noChildren:hover,
+     .navigation .navbar ul.navmenu li.hasChildren,
+     .navigation .navbar ul.navmenu li.hasChildren:link,
+     .navigation .navbar ul.navmenu li.hasChildren:visited,
+     .navigation .navbar ul.navmenu li.hasChildren:active,
+     .navigation .navbar ul.navmenu li.hasChildren:hover {
         background-position: 50% 80%;
     }
 
 }
 @media (max-width: 767px) {
 
-    .bodywrapper .shortcuts-inline li.shortcuts-typoincrease,
-    .bodywrapper .shortcuts-inline li.shortcuts-typoreduce,
-    .bodywrapper .shortcuts-inline li.shortcuts-print,
-    .bodywrapper .shortcuts-inline li.shortcuts-mysettings{
+     .shortcuts-inline li.shortcuts-typoincrease,
+     .shortcuts-inline li.shortcuts-typoreduce,
+     .shortcuts-inline li.shortcuts-print,
+     .shortcuts-inline li.shortcuts-mysettings{
         display: none;
     }
-    .bodywrapper {
+    body {
         -webkit-text-size-adjust: 100%;
     }
 
-    .bodywrapper .tabContainer {
+     .tabContainer {
         margin-bottom: 0.2em;
         padding: 10px 5px;
     }
 
-    .bodywrapper #content img {
+     #content img {
         max-width: 100% !important;
         height:auto !important;
     }
-    .bodywrapper #headerBottom .container_16 .grid_11 {
+     #headerBottom .container_16 .grid_11 {
         float: right;
     }
-    .bodywrapper #headerBottom .container_16 .grid_2 {
+     #headerBottom .container_16 .grid_2 {
         clear: both;
         display:block;
         text-align: right
     }
 
-    .bodywrapper .navigation {
+     .navigation {
         padding-top: 12px;
         padding-bottom: 15px;
         float: right;
     }
-    .bodywrapper .navigation select {
+     .navigation select {
         width:150px !important;
     }
 }
